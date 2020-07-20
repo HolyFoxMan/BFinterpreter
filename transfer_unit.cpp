@@ -139,14 +139,23 @@ size_t TransferUnit::PushReducedOP(token_t inc_op_token, token_t dec_op_token, s
         ++index;
     }
 
-    token_t decisive_token = genTrend > 0? inc_op_token : dec_op_token;
-    Command_t prev_com = !listing.empty()? listing.back() : Command_t({END_SOURCE, UNSET_ARG});
+    auto prev_com = !listing.empty()? std::prev(listing.end()) : listing.end();
 
-    /* if last catched token operator is semantically matches with current */
-    if (prev_com.first == inc_op_token || prev_com.first == dec_op_token)
-        prev_com.second += genTrend;
-    else
-        listing.push_back({decisive_token, genTrend > 0? genTrend : -genTrend});
+        /* if last catched token operator is semantically matches with current */
+    if (prev_com != listing.end() && (prev_com->first == inc_op_token || prev_com->first == dec_op_token))
+        prev_com->second += genTrend;
+    else {
+
+        token_t decisive;
+        if (genTrend > 0)
+            decisive = inc_op_token;
+        else {
+            decisive = dec_op_token;
+            genTrend = -genTrend;
+        }
+        listing.push_back({decisive, genTrend});
+
+    }
 
     return index;
 }
@@ -187,7 +196,8 @@ namespace BFInterpreter {
     void PrintListing(TransferUnit& tu)
     {
         for(auto& com : tu.listing)
-            std::cout << com.first << "arg: " << com.second << std::endl;
+            std::cout << com.first << ", " << com.second << "; ";
+        std::cout << std::endl;
     }
 }
 #endif

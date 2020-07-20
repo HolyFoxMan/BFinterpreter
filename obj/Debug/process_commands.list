@@ -1,4 +1,4 @@
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 1
 
 
    1              		.file	"process_commands.cpp"
@@ -58,7 +58,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
   43 0022 488B4510 		movq	16(%rbp), %rax
   44 0026 488B5018 		movq	24(%rax), %rdx
   45              		.loc 1 11 20
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 2
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 2
 
 
   46 002a 488B4510 		movq	16(%rbp), %rax
@@ -118,7 +118,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
   89 0034 29030000 		.long	.L5-.L7
   90 0038 2D030000 		.long	.L5-.L7
   91 003c 31030000 		.long	.L5-.L7
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 3
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 3
 
 
   92 0040 35030000 		.long	.L5-.L7
@@ -178,7 +178,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  141 00aa 8B45FC   		movl	-4(%rbp), %eax
  142              		.loc 1 16 25
  143 00ad 4189C0   		movl	%eax, %r8d
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 4
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 4
 
 
  144              		.loc 1 16 9
@@ -238,7 +238,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  191 011a 488D5001 		leaq	1(%rax), %rdx
  192 011e 488B4510 		movq	16(%rbp), %rax
  193 0122 48895018 		movq	%rdx, 24(%rax)
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 5
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 5
 
 
   23:D:/coding/BFInterpreter\process_commands.cpp ****         break;
@@ -298,7 +298,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  239              		.loc 1 30 9
  240 0188 488D5001 		leaq	1(%rax), %rdx
  241 018c 488B4510 		movq	16(%rbp), %rax
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 6
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 6
 
 
  242 0190 48895018 		movq	%rdx, 24(%rax)
@@ -358,7 +358,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  281 01f3 89C2     		movl	%eax, %edx
  282              		.loc 1 39 9
  283 01f5 488B4510 		movq	16(%rbp), %rax
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 7
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 7
 
 
  284 01f9 488B08   		movq	(%rax), %rcx
@@ -418,7 +418,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
   46:D:/coding/BFInterpreter\process_commands.cpp ****         break;
  328              		.loc 1 46 9
  329 0266 E9950000 		jmp	.L15
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 8
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 8
 
 
  329      00
@@ -478,7 +478,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  371 02bc 4801D0   		addq	%rdx, %rax
  372 02bf 0FB600   		movzbl	(%rax), %eax
  373              		.loc 1 56 9
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 9
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 9
 
 
  374 02c2 84C0     		testb	%al, %al
@@ -538,7 +538,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  409              	.L22:
   71:D:/coding/BFInterpreter\process_commands.cpp **** }
  410              		.loc 1 71 1 discriminator 1
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 10
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 10
 
 
  411 0305 4883C430 		addq	$48, %rsp
@@ -598,7 +598,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  466 030b 90909090 		.section	.debug_info,"dr"
  466      90
  467              	.Ldebug_info0:
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 11
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 11
 
 
  468 0000 2DD10000 		.long	0xd12d
@@ -658,7 +658,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  503 0113 0E       		.byte	0xe
  504 0114 08020000 		.long	0x208
  505 0118 06       		.uleb128 0x6
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 12
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 12
 
 
  506 0119 30500000 		.long	0x5030
@@ -718,7 +718,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  551 0210 8C950000 		.long	0x958c
  552 0214 01       		.byte	0x1
  553 0215 0C       		.uleb128 0xc
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 13
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 13
 
 
  554 0216 10       		.byte	0x10
@@ -778,7 +778,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  596      675F6C65 
  596      6E677468 
  596      00
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 14
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 14
 
 
  597 0299 02       		.byte	0x2
@@ -838,7 +838,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  636      31313132 
  636      62617369 
  637 03b7 08020000 		.long	0x208
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 15
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 15
 
 
  638 03bb C3030000 		.long	0x3c3
@@ -898,7 +898,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  679      31313262 
  679      61736963 
  680 04ee F6040000 		.long	0x4f6
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 16
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 16
 
 
  681 04f2 01050000 		.long	0x501
@@ -958,7 +958,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  717      31313262 
  717      61736963 
  718 0627 08020000 		.long	0x208
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 17
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 17
 
 
  719 062b 33060000 		.long	0x633
@@ -1018,7 +1018,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  757 0722 5F5A4E53 		.ascii "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE18_M_construct_aux_2Eyc\0"
  757      74375F5F 
  757      63787831 
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 18
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 18
 
 
  757      31313262 
@@ -1078,7 +1078,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  799 0828 02       		.byte	0x2
  800 0829 1E01     		.word	0x11e
  801 082b 07       		.byte	0x7
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 19
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 19
 
 
  802 082c 5F5A4E53 		.ascii "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE16_M_get_allocatorEv\0"
@@ -1138,7 +1138,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  839 096e 02       		.byte	0x2
  840 096f 4001     		.word	0x140
  841 0971 07       		.byte	0x7
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 20
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 20
 
 
  842 0972 5F5A4E4B 		.ascii "_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE15_M_check_lengthEyyPKc\0"
@@ -1198,7 +1198,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  880 0ab0 F4C50000 		.long	0xc5f4
  881 0ab4 09       		.uleb128 0x9
  882 0ab5 10B10000 		.long	0xb110
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 21
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 21
 
 
  883 0ab9 00       		.byte	0
@@ -1258,7 +1258,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  921 0be3 09       		.uleb128 0x9
  922 0be4 52020000 		.long	0x252
  923 0be8 09       		.uleb128 0x9
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 22
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 22
 
 
  924 0be9 9CAE0000 		.long	0xae9c
@@ -1318,7 +1318,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  970 0d2b 02       		.byte	0x2
  971 0d2c 8801     		.word	0x188
  972 0d2e 07       		.byte	0x7
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 23
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 23
 
 
  973 0d2f 5F5A4E53 		.ascii "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE13_S_copy_charsEPcS5_S5_\0"
@@ -1378,7 +1378,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  1011 0e6f 02       		.byte	0x2
  1012 0e70 9E01     		.word	0x19e
  1013 0e72 07       		.byte	0x7
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 24
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 24
 
 
  1014 0e73 5F5A4E53 		.ascii "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_assignERKS4_\0"
@@ -1438,7 +1438,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  1054 0fa2 52020000 		.long	0x252
  1055 0fa6 00       		.byte	0
  1056 0fa7 1C       		.uleb128 0x1c
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 25
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 25
 
 
  1057 0fa8 CC020000 		.secrel32	.LASF11
@@ -1498,7 +1498,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  1099 10b5 CD01     		.word	0x1cd
  1100 10b7 07       		.byte	0x7
  1101 10b8 5F5A4E53 		.ascii "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC4ERKS4_yRKS3_\0"
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 26
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 26
 
 
  1101      74375F5F 
@@ -1558,7 +1558,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  1144 11de 0CC60000 		.long	0xc60c
  1145 11e2 09       		.uleb128 0x9
  1146 11e3 52020000 		.long	0x252
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 27
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 27
 
 
  1147 11e7 09       		.uleb128 0x9
@@ -1618,7 +1618,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  1191      63787831 
  1191      31313262 
  1191      61736963 
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 28
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 28
 
 
  1192 1307 01       		.byte	0x1
@@ -1678,7 +1678,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  1238 13fe 07       		.byte	0x7
  1239 13ff 5F5A4E53 		.ascii "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC4ERKS4_RKS3_\0"
  1239      74375F5F 
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 29
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 29
 
 
  1239      63787831 
@@ -1738,7 +1738,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  1280 1520 1F       		.uleb128 0x1f
  1281 1521 38020000 		.secrel32	.LASF12
  1282 1525 02       		.byte	0x2
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 30
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 30
 
 
  1283 1526 9902     		.word	0x299
@@ -1798,7 +1798,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  1325 1637 1F       		.uleb128 0x1f
  1326 1638 38020000 		.secrel32	.LASF12
  1327 163c 02       		.byte	0x2
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 31
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 31
 
 
  1328 163d BF02     		.word	0x2bf
@@ -1858,7 +1858,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  1370 1765 02       		.byte	0x2
  1371 1766 2503     		.word	0x325
  1372 1768 07       		.byte	0x7
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 32
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 32
 
 
  1373 1769 5F5A4E4B 		.ascii "_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE5beginEv\0"
@@ -1918,7 +1918,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  1415 187a BC000000 		.secrel32	.LASF15
  1416 187e 02       		.byte	0x2
  1417 187f 3E03     		.word	0x33e
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 33
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 33
 
 
  1418 1881 07       		.byte	0x7
@@ -1978,7 +1978,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  1459 1996 00       		.byte	0
  1460 1997 20       		.uleb128 0x20
  1461 1998 72656E64 		.ascii "rend\0"
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 34
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 34
 
 
  1461      00
@@ -2038,7 +2038,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  1500      67696E00 
  1501 1ab5 02       		.byte	0x2
  1502 1ab6 7303     		.word	0x373
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 35
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 35
 
 
  1503 1ab8 07       		.byte	0x7
@@ -2098,7 +2098,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  1542 1bd0 07       		.byte	0x7
  1543 1bd1 5F5A4E4B 		.ascii "_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6lengthEv\0"
  1543      5374375F 
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 36
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 36
 
 
  1543      5F637878 
@@ -2158,7 +2158,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  1585      63787831 
  1585      31313262 
  1585      61736963 
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 37
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 37
 
 
  1586 1d2c 01       		.byte	0x1
@@ -2218,7 +2218,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  1627 1e4f 5E1E0000 		.long	0x1e5e
  1628 1e53 08       		.uleb128 0x8
  1629 1e54 EEC50000 		.long	0xc5ee
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 38
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 38
 
 
  1630 1e58 09       		.uleb128 0x9
@@ -2278,7 +2278,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  1670      62617369 
  1671 1f64 131F0000 		.long	0x1f13
  1672 1f68 01       		.byte	0x1
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 39
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 39
 
 
  1673 1f69 711F0000 		.long	0x1f71
@@ -2338,7 +2338,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  1719 2044 02       		.byte	0x2
  1720 2045 3404     		.word	0x434
  1721 2047 07       		.byte	0x7
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 40
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 40
 
 
  1722 2048 5F5A4E53 		.ascii "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE2atEy\0"
@@ -2398,7 +2398,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  1763 215a 5F5A4E53 		.ascii "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4backEv\0"
  1763      74375F5F 
  1763      63787831 
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 41
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 41
 
 
  1763      31313262 
@@ -2458,7 +2458,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  1804      31313262 
  1804      61736963 
  1805 22a9 18C60000 		.long	0xc618
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 42
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 42
 
 
  1806 22ad 01       		.byte	0x1
@@ -2518,7 +2518,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  1849      31313262 
  1849      61736963 
  1850 23d9 18C60000 		.long	0xc618
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 43
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 43
 
 
  1851 23dd 01       		.byte	0x1
@@ -2578,7 +2578,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  1897 24ce 02       		.byte	0x2
  1898 24cf D204     		.word	0x4d2
  1899 24d1 07       		.byte	0x7
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 44
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 44
 
 
  1900 24d2 5F5A4E53 		.ascii "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6appendEPKc\0"
@@ -2638,7 +2638,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  1942 2607 1C       		.uleb128 0x1c
  1943 2608 2D000000 		.secrel32	.LASF27
  1944 260c 02       		.byte	0x2
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 45
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 45
 
 
  1945 260d 2805     		.word	0x528
@@ -2698,7 +2698,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  1987 272e 63020000 		.secrel32	.LASF28
  1988 2732 02       		.byte	0x2
  1989 2733 7B05     		.word	0x57b
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 46
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 46
 
 
  1990 2735 07       		.byte	0x7
@@ -2758,7 +2758,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  2032 285c 08       		.uleb128 0x8
  2033 285d EEC50000 		.long	0xc5ee
  2034 2861 09       		.uleb128 0x9
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 47
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 47
 
 
  2035 2862 10B10000 		.long	0xb110
@@ -2818,7 +2818,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  2077 29b8 C0290000 		.long	0x29c0
  2078 29bc D5290000 		.long	0x29d5
  2079 29c0 08       		.uleb128 0x8
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 48
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 48
 
 
  2080 29c1 EEC50000 		.long	0xc5ee
@@ -2878,7 +2878,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  2126 2ae9 07       		.byte	0x7
  2127 2aea 5F5A4E53 		.ascii "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6insertEyRKS4_yy\0"
  2127      74375F5F 
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 49
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 49
 
 
  2127      63787831 
@@ -2938,7 +2938,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  2171 2c19 2D2C0000 		.long	0x2c2d
  2172 2c1d 08       		.uleb128 0x8
  2173 2c1e EEC50000 		.long	0xc5ee
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 50
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 50
 
 
  2174 2c22 09       		.uleb128 0x9
@@ -2998,7 +2998,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  2216      00
  2217 2d37 02       		.byte	0x2
  2218 2d38 6C       		.byte	0x6c
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 51
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 51
 
 
  2219 2d39 1E       		.byte	0x1e
@@ -3058,7 +3058,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  2261 2e9d 01       		.byte	0x1
  2262 2e9e A62E0000 		.long	0x2ea6
  2263 2ea2 B62E0000 		.long	0x2eb6
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 52
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 52
 
 
  2264 2ea6 08       		.uleb128 0x8
@@ -3118,7 +3118,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  2307      31313262 
  2307      61736963 
  2308 2fd1 18C60000 		.long	0xc618
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 53
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 53
 
 
  2309 2fd5 01       		.byte	0x1
@@ -3178,7 +3178,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  2355 30c8 E1300000 		.long	0x30e1
  2356 30cc 08       		.uleb128 0x8
  2357 30cd EEC50000 		.long	0xc5ee
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 54
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 54
 
 
  2358 30d1 09       		.uleb128 0x9
@@ -3238,7 +3238,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  2404 31ec 00       		.byte	0
  2405 31ed 1F       		.uleb128 0x1f
  2406 31ee 37000000 		.secrel32	.LASF32
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 55
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 55
 
 
  2407 31f2 02       		.byte	0x2
@@ -3298,7 +3298,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  2450      31313262 
  2450      61736963 
  2451 3395 18C60000 		.long	0xc618
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 56
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 56
 
 
  2452 3399 01       		.byte	0x1
@@ -3358,7 +3358,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  2498 34e0 EEC50000 		.long	0xc5ee
  2499 34e4 09       		.uleb128 0x9
  2500 34e5 252D0000 		.long	0x2d25
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 57
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 57
 
 
  2501 34e9 09       		.uleb128 0x9
@@ -3418,7 +3418,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  2547 363a 09       		.uleb128 0x9
  2548 363b 190D0000 		.long	0xd19
  2549 363f 00       		.byte	0
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 58
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 58
 
 
  2550 3640 1F       		.uleb128 0x1f
@@ -3478,7 +3478,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  2591 377c 02       		.byte	0x2
  2592 377d D208     		.word	0x8d2
  2593 377f 07       		.byte	0x7
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 59
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 59
 
 
  2594 3780 5F5A4E53 		.ascii "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEyyPKcy\0"
@@ -3538,7 +3538,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  2633 38af B7380000 		.long	0x38b7
  2634 38b3 CC380000 		.long	0x38cc
  2635 38b7 08       		.uleb128 0x8
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 60
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 60
 
 
  2636 38b8 F4C50000 		.long	0xc5f4
@@ -3598,7 +3598,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  2676      31313132 
  2676      62617369 
  2677 39cf 10B10000 		.long	0xb110
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 61
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 61
 
 
  2678 39d3 01       		.byte	0x1
@@ -3658,7 +3658,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  2721      5374375F 
  2721      5F637878 
  2721      31313132 
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 62
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 62
 
 
  2721      62617369 
@@ -3718,7 +3718,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  2765 3be7 52020000 		.long	0x252
  2766 3beb 00       		.byte	0
  2767 3bec 1F       		.uleb128 0x1f
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 63
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 63
 
 
  2768 3bed 86020000 		.secrel32	.LASF34
@@ -3778,7 +3778,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  2810 3d13 01       		.byte	0x1
  2811 3d14 1C3D0000 		.long	0x3d1c
  2812 3d18 2C3D0000 		.long	0x3d2c
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 64
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 64
 
 
  2813 3d1c 08       		.uleb128 0x8
@@ -3838,7 +3838,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  2859 3e0e 5F5A4E4B 		.ascii "_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE13find_first_ofEPKcyy\0"
  2859      5374375F 
  2859      5F637878 
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 65
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 65
 
 
  2859      31313132 
@@ -3898,7 +3898,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  2904 3f56 09       		.uleb128 0x9
  2905 3f57 52020000 		.long	0x252
  2906 3f5b 00       		.byte	0
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 66
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 66
 
 
  2907 3f5c 1F       		.uleb128 0x1f
@@ -3958,7 +3958,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  2949 4097 52020000 		.long	0x252
  2950 409b 01       		.byte	0x1
  2951 409c A4400000 		.long	0x40a4
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 67
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 67
 
 
  2952 40a0 B4400000 		.long	0x40b4
@@ -4018,7 +4018,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  2998 41a1 07       		.byte	0x7
  2999 41a2 5F5A4E4B 		.ascii "_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE17find_first_not_ofEPKcyy\0"
  2999      5374375F 
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 68
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 68
 
 
  2999      5F637878 
@@ -4078,7 +4078,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  3043 42f2 9CAE0000 		.long	0xae9c
  3044 42f6 09       		.uleb128 0x9
  3045 42f7 52020000 		.long	0x252
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 69
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 69
 
 
  3046 42fb 00       		.byte	0
@@ -4138,7 +4138,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  3088      62617369 
  3089 4443 52020000 		.long	0x252
  3090 4447 01       		.byte	0x1
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 70
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 70
 
 
  3091 4448 50440000 		.long	0x4450
@@ -4198,7 +4198,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  3136 4541 02       		.byte	0x2
  3137 4542 240B     		.word	0xb24
  3138 4544 07       		.byte	0x7
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 71
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 71
 
 
  3139 4545 5F5A4E4B 		.ascii "_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7compareERKS4_\0"
@@ -4258,7 +4258,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  3181 4679 52020000 		.long	0x252
  3182 467d 09       		.uleb128 0x9
  3183 467e 52020000 		.long	0x252
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 72
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 72
 
 
  3184 4682 09       		.uleb128 0x9
@@ -4318,7 +4318,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  3230 476f 5F5A4E4B 		.ascii "_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7compareEyyPKcy\0"
  3230      5374375F 
  3230      5F637878 
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 73
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 73
 
 
  3230      31313132 
@@ -4378,7 +4378,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  3276 4840 02AE0000 		.long	0xae02
  3277 4844 28       		.uleb128 0x28
  3278 4845 F5020000 		.secrel32	.LASF41
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 74
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 74
 
 
  3279 4849 03       		.byte	0x3
@@ -4438,7 +4438,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  3318      7374616E 
  3318      743C626F 
  3319 493c 01       		.byte	0x1
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 75
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 75
 
 
  3320 493d 03       		.byte	0x3
@@ -4498,7 +4498,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  3361 4a12 5F547000 		.ascii "_Tp\0"
  3362 4a16 FAAD0000 		.long	0xadfa
  3363 4a1a 29       		.uleb128 0x29
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 76
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 76
 
 
  3364 4a1b 5F5F7600 		.ascii "__v\0"
@@ -4558,7 +4558,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  3404      77697365 
  3404      5F636F6E 
  3405 4aba 01       		.byte	0x1
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 77
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 77
 
 
  3406 4abb BF4A0000 		.long	0x4abf
@@ -4618,7 +4618,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  3448 4b3c 07       		.byte	0x7
  3449 4b3d 54       		.byte	0x54
  3450 4b3e 10       		.byte	0x10
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 78
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 78
 
 
  3451 4b3f 5F5A4E53 		.ascii "_ZNSt15__exception_ptr13exception_ptrC4EPv\0"
@@ -4678,7 +4678,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  3486      5F5F6578 
  3486      63657074 
  3486      696F6E5F 
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 79
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 79
 
 
  3487 4c57 B8B00000 		.long	0xb0b8
@@ -4738,7 +4738,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  3529 4d31 BAB00000 		.long	0xb0ba
  3530 4d35 09       		.uleb128 0x9
  3531 4d36 E84F0000 		.long	0x4fe8
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 80
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 80
 
 
  3532 4d3a 00       		.byte	0
@@ -4798,7 +4798,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  3574 4e19 09       		.uleb128 0x9
  3575 4e1a DFB00000 		.long	0xb0df
  3576 4e1e 00       		.byte	0
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 81
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 81
 
 
  3577 4e1f 34       		.uleb128 0x34
@@ -4858,7 +4858,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  3612 4eff 01       		.byte	0x1
  3613 4f00 084F0000 		.long	0x4f08
  3614 4f04 0E4F0000 		.long	0x4f0e
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 82
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 82
 
 
  3615 4f08 08       		.uleb128 0x8
@@ -4918,7 +4918,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  3653 4fe7 00       		.byte	0
  3654 4fe8 2A       		.uleb128 0x2a
  3655 4fe9 6E756C6C 		.ascii "nullptr_t\0"
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 83
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 83
 
 
  3655      7074725F 
@@ -4978,7 +4978,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  3696 506e 08       		.uleb128 0x8
  3697 506f 21B10000 		.long	0xb121
  3698 5073 00       		.byte	0
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 84
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 84
 
 
  3699 5074 32       		.uleb128 0x32
@@ -5038,7 +5038,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  3744 50f8 30500000 		.long	0x5030
  3745 50fc 37       		.uleb128 0x37
  3746 50fd 09       		.byte	0x9
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 85
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 85
 
 
  3747 50fe 40       		.byte	0x40
@@ -5098,7 +5098,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  3801 5155 09       		.byte	0x9
  3802 5156 98       		.byte	0x98
  3803 5157 0B       		.byte	0xb
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 86
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 86
 
 
  3804 5158 B6B30000 		.long	0xb3b6
@@ -5158,7 +5158,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  3858 51af 0B       		.byte	0xb
  3859 51b0 27B50000 		.long	0xb527
  3860 51b4 37       		.uleb128 0x37
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 87
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 87
 
 
  3861 51b5 09       		.byte	0x9
@@ -5218,7 +5218,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  3915 520c 37       		.uleb128 0x37
  3916 520d 09       		.byte	0x9
  3917 520e B7       		.byte	0xb7
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 88
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 88
 
 
  3918 520f 0B       		.byte	0xb
@@ -5278,7 +5278,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  3972 5266 C4       		.byte	0xc4
  3973 5267 0B       		.byte	0xb
  3974 5268 50B80000 		.long	0xb850
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 89
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 89
 
 
  3975 526c 37       		.uleb128 0x37
@@ -5338,7 +5338,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  4029 52c0 C2B90000 		.long	0xb9c2
  4030 52c4 37       		.uleb128 0x37
  4031 52c5 09       		.byte	0x9
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 90
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 90
 
 
  4032 52c6 D0       		.byte	0xd0
@@ -5398,7 +5398,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  4086 5325 09       		.byte	0x9
  4087 5326 2901     		.word	0x129
  4088 5328 0E       		.byte	0xe
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 91
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 91
 
 
  4089 5329 66BA0000 		.long	0xba66
@@ -5458,7 +5458,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  4129 53d1 E0530000 		.long	0x53e0
  4130 53d5 09       		.uleb128 0x9
  4131 53d6 B7BA0000 		.long	0xbab7
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 92
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 92
 
 
  4132 53da 09       		.uleb128 0x9
@@ -5518,7 +5518,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  4173 549c 00       		.byte	0
  4174 549d 1A       		.uleb128 0x1a
  4175 549e 66696E64 		.ascii "find\0"
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 93
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 93
 
 
  4175      00
@@ -5578,7 +5578,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  4215 5561 BDBA0000 		.long	0xbabd
  4216 5565 09       		.uleb128 0x9
  4217 5566 3D4A0000 		.long	0x4a3d
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 94
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 94
 
 
  4218 556a 00       		.byte	0
@@ -5638,7 +5638,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  4257 561d 07       		.byte	0x7
  4258 561e 5F5A4E53 		.ascii "_ZNSt11char_traitsIcE11to_int_typeERKc\0"
  4258      74313163 
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 95
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 95
 
 
  4258      6861725F 
@@ -5698,7 +5698,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  4295 5707 22       		.uleb128 0x22
  4296 5708 5F436861 		.ascii "_CharT\0"
  4296      725400
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 96
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 96
 
 
  4297 570f 9CAE0000 		.long	0xae9c
@@ -5758,7 +5758,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  4351 5766 3B       		.byte	0x3b
  4352 5767 0B       		.byte	0xb
  4353 5768 A9BB0000 		.long	0xbba9
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 97
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 97
 
 
  4354 576c 37       		.uleb128 0x37
@@ -5818,7 +5818,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  4408 57c0 97BC0000 		.long	0xbc97
  4409 57c4 37       		.uleb128 0x37
  4410 57c5 0B       		.byte	0xb
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 98
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 98
 
 
  4411 57c6 4B       		.byte	0x4b
@@ -5878,7 +5878,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  4465 581d 0D       		.byte	0xd
  4466 581e 86       		.byte	0x86
  4467 581f 0B       		.byte	0xb
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 99
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 99
 
 
  4468 5820 DDBD0000 		.long	0xbddd
@@ -5938,7 +5938,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  4522 5877 0B       		.byte	0xb
  4523 5878 43BF0000 		.long	0xbf43
  4524 587c 37       		.uleb128 0x37
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 100
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 100
 
 
  4525 587d 0D       		.byte	0xd
@@ -5998,7 +5998,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  4579 58d4 37       		.uleb128 0x37
  4580 58d5 0D       		.byte	0xd
  4581 58d6 F8       		.byte	0xf8
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 101
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 101
 
 
  4582 58d7 16       		.byte	0x16
@@ -6058,7 +6058,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  4636 592e 69       		.byte	0x69
  4637 592f 0B       		.byte	0xb
  4638 5930 75C10000 		.long	0xc175
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 102
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 102
 
 
  4639 5934 37       		.uleb128 0x37
@@ -6118,7 +6118,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  4693 5988 E6C20000 		.long	0xc2e6
  4694 598c 37       		.uleb128 0x37
  4695 598d 0E       		.byte	0xe
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 103
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 103
 
 
  4696 598e 78       		.byte	0x78
@@ -6178,7 +6178,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  4750 59e5 0E       		.byte	0xe
  4751 59e6 8A       		.byte	0x8a
  4752 59e7 0B       		.byte	0xb
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 104
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 104
 
 
  4753 59e8 28C40000 		.long	0xc428
@@ -6238,7 +6238,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  4807 5a3f 16       		.byte	0x16
  4808 5a40 95C50000 		.long	0xc595
  4809 5a44 3E       		.uleb128 0x3e
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 105
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 105
 
 
  4810 5a45 616C6C6F 		.ascii "allocator_traits<std::allocator<char> >\0"
@@ -6298,7 +6298,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  4854      6C6C6F63 
  4854      61746F72 
  4854      5F747261 
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 106
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 106
 
 
  4855 5b26 765A0000 		.long	0x5a76
@@ -6358,7 +6358,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  4900      74313661 
  4900      6C6C6F63 
  4900      61746F72 
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 107
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 107
 
 
  4900      5F747261 
@@ -6418,7 +6418,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  4948 5cb2 00       		.byte	0
  4949 5cb3 0B       		.uleb128 0xb
  4950 5cb4 0D000000 		.secrel32	.LASF2
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 108
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 108
 
 
  4951 5cb8 10       		.byte	0x10
@@ -6478,7 +6478,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  4996 5d54 00       		.byte	0
  4997 5d55 43       		.uleb128 0x43
  4998 5d56 73697A65 		.ascii "size\0"
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 109
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 109
 
 
  4998      00
@@ -6538,7 +6538,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  5040 5e19 0E       		.uleb128 0xe
  5041 5e1a 745C0000 		.long	0x5c74
  5042 5e1e 39       		.uleb128 0x39
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 110
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 110
 
 
  5043 5e1f 72657665 		.ascii "reverse_iterator<__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std:
@@ -6598,7 +6598,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  5079 5f9a 0C       		.byte	0xc
  5080 5f9b E4600000 		.long	0x60e4
  5081 5f9f 3A       		.uleb128 0x3a
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 111
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 111
 
 
  5082 5fa0 B98C0000 		.long	0x8cb9
@@ -6658,7 +6658,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  5124 6028 09       		.uleb128 0x9
  5125 6029 91D00000 		.long	0xd091
  5126 602d 00       		.byte	0
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 112
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 112
 
 
  5127 602e 16       		.uleb128 0x16
@@ -6718,7 +6718,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  5168 60d1 22       		.uleb128 0x22
  5169 60d2 5F543100 		.ascii "_T1\0"
  5170 60d6 9CAE0000 		.long	0xae9c
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 113
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 113
 
 
  5171 60da 22       		.uleb128 0x22
@@ -6778,7 +6778,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  5213 6183 00       		.byte	0
  5214 6184 3B       		.uleb128 0x3b
  5215 6185 38020000 		.secrel32	.LASF12
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 114
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 114
 
 
  5216 6189 08       		.byte	0x8
@@ -6838,7 +6838,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  5258 6246 5ECF0000 		.long	0xcf5e
  5259 624a 3F       		.uleb128 0x3f
  5260 624b 8C020000 		.secrel32	.LASF47
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 115
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 115
 
 
  5261 624f 0F       		.byte	0xf
@@ -6898,7 +6898,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  5307 6326 19       		.uleb128 0x19
  5308 6327 D7010000 		.secrel32	.LASF49
  5309 632b 0F       		.byte	0xf
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 116
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 116
 
 
  5310 632c EB01     		.word	0x1eb
@@ -6958,7 +6958,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  5352 6451 BE01     		.word	0x1be
  5353 6453 08       		.byte	0x8
  5354 6454 E9600000 		.long	0x60e9
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 117
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 117
 
 
  5355 6458 42       		.uleb128 0x42
@@ -7018,7 +7018,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  5397 6513 61       		.byte	0x61
  5398 6514 02       		.byte	0x2
  5399 6515 5F5A4E53 		.ascii "_ZNSt12_Vector_baseISt4pairIclESaIS1_EE17_Vector_impl_dataC4Ev\0"
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 118
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 118
 
 
  5399      7431325F 
@@ -7078,7 +7078,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  5436 6643 5F5A4E53 		.ascii "_ZNSt12_Vector_baseISt4pairIclESaIS1_EE17_Vector_impl_data12_M_swap_dataERS4_\0"
  5436      7431325F 
  5436      56656374 
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 119
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 119
 
 
  5436      6F725F62 
@@ -7138,7 +7138,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  5481      61736549 
  5482 6761 69670000 		.long	0x6769
  5483 6765 74670000 		.long	0x6774
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 120
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 120
 
 
  5484 6769 08       		.uleb128 0x8
@@ -7198,7 +7198,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  5526 687b 09       		.uleb128 0x9
  5527 687c CACF0000 		.long	0xcfca
  5528 6880 00       		.byte	0
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 121
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 121
 
 
  5529 6881 00       		.byte	0
@@ -7258,7 +7258,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  5575 6963 5F5A4E4B 		.ascii "_ZNKSt12_Vector_baseISt4pairIclESaIS1_EE13get_allocatorEv\0"
  5575      53743132 
  5575      5F566563 
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 122
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 122
 
 
  5575      746F725F 
@@ -7318,7 +7318,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  5616 6a7d DCCF0000 		.long	0xcfdc
  5617 6a81 09       		.uleb128 0x9
  5618 6a82 3D4A0000 		.long	0x4a3d
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 123
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 123
 
 
  5619 6a86 00       		.byte	0
@@ -7378,7 +7378,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  5661 6b6f 00       		.byte	0
  5662 6b70 1B       		.uleb128 0x1b
  5663 6b71 32010000 		.secrel32	.LASF57
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 124
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 124
 
 
  5664 6b75 12       		.byte	0x12
@@ -7438,7 +7438,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  5703 6c67 B4AD0000 		.long	0xadb4
  5704 6c6b 00       		.byte	0
  5705 6c6c 49       		.uleb128 0x49
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 125
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 125
 
 
  5706 6c6d 5F4D5F69 		.ascii "_M_impl\0"
@@ -7498,7 +7498,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  5742      6500
  5743 6d58 12       		.byte	0x12
  5744 6d59 6701     		.word	0x167
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 126
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 126
 
 
  5745 6d5b 07       		.byte	0x7
@@ -7558,7 +7558,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  5791 6e42 3D       		.uleb128 0x3d
  5792 6e43 12       		.byte	0x12
  5793 6e44 8501     		.word	0x185
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 127
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 127
 
 
  5794 6e46 0B       		.byte	0xb
@@ -7618,7 +7618,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  5833 6f78 FAAD0000 		.long	0xadfa
  5834 6f7c 4B       		.uleb128 0x4b
  5835 6f7d AC030000 		.secrel32	.LASF1
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 128
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 128
 
 
  5836 6f81 12       		.byte	0x12
@@ -7678,7 +7678,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  5882 709f 09       		.uleb128 0x9
  5883 70a0 F4CF0000 		.long	0xcff4
  5884 70a4 09       		.uleb128 0x9
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 129
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 129
 
 
  5885 70a5 2A4A0000 		.long	0x4a2a
@@ -7738,7 +7738,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  5925 718a 99710000 		.long	0x7199
  5926 718e 08       		.uleb128 0x8
  5927 718f FACF0000 		.long	0xcffa
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 130
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 130
 
 
  5928 7193 09       		.uleb128 0x9
@@ -7798,7 +7798,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  5974 724c 09       		.uleb128 0x9
  5975 724d F8710000 		.long	0x71f8
  5976 7251 09       		.uleb128 0x9
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 131
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 131
 
 
  5977 7252 06D00000 		.long	0xd006
@@ -7858,7 +7858,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  6023 7303 07       		.byte	0x7
  6024 7304 5F5A4E53 		.ascii "_ZNSt6vectorISt4pairIclESaIS1_EEC4ERKS3_RKS2_\0"
  6024      74367665 
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 132
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 132
 
 
  6024      63746F72 
@@ -7918,7 +7918,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  6068 7428 00       		.byte	0
  6069 7429 1C       		.uleb128 0x1c
  6070 742a 3F010000 		.secrel32	.LASF60
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 133
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 133
 
 
  6071 742e 12       		.byte	0x12
@@ -7978,7 +7978,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  6112 751c 08       		.uleb128 0x8
  6113 751d B4AD0000 		.long	0xadb4
  6114 7521 00       		.byte	0
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 134
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 134
 
 
  6115 7522 33       		.uleb128 0x33
@@ -8038,7 +8038,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  6157 760c 09       		.uleb128 0x9
  6158 760d 3F8B0000 		.long	0x8b3f
  6159 7611 00       		.byte	0
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 135
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 135
 
 
  6160 7612 1C       		.uleb128 0x1c
@@ -8098,7 +8098,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  6202      70616972 
  6203 7702 C2760000 		.long	0x76c2
  6204 7706 01       		.byte	0x1
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 136
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 136
 
 
  6205 7707 0F770000 		.long	0x770f
@@ -8158,7 +8158,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  6248      72495374 
  6248      34706169 
  6249 77dd 15770000 		.long	0x7715
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 137
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 137
 
 
  6250 77e1 01       		.byte	0x1
@@ -8218,7 +8218,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  6296 7899 20       		.uleb128 0x20
  6297 789a 72656E64 		.ascii "rend\0"
  6297      00
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 138
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 138
 
 
  6298 789f 12       		.byte	0x12
@@ -8278,7 +8278,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  6337 7974 12       		.byte	0x12
  6338 7975 7D03     		.word	0x37d
  6339 7977 07       		.byte	0x7
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 139
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 139
 
 
  6340 7978 5F5A4E4B 		.ascii "_ZNKSt6vectorISt4pairIclESaIS1_EE4cendEv\0"
@@ -8338,7 +8338,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  6379 7a52 5F5A4E4B 		.ascii "_ZNKSt6vectorISt4pairIclESaIS1_EE4sizeEv\0"
  6379      53743676 
  6379      6563746F 
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 140
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 140
 
 
  6379      72495374 
@@ -8398,7 +8398,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  6420 7b56 01       		.byte	0x1
  6421 7b57 5F7B0000 		.long	0x7b5f
  6422 7b5b 6F7B0000 		.long	0x7b6f
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 141
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 141
 
 
  6423 7b5f 08       		.uleb128 0x8
@@ -8458,7 +8458,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  6464 7c40 4A7C0000 		.long	0x7c4a
  6465 7c44 08       		.uleb128 0x8
  6466 7c45 1ED00000 		.long	0xd01e
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 142
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 142
 
 
  6467 7c49 00       		.byte	0
@@ -8518,7 +8518,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  6512 7cf8 C1020000 		.secrel32	.LASF22
  6513 7cfc 12       		.byte	0x12
  6514 7cfd 2504     		.word	0x425
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 143
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 143
 
 
  6515 7cff 07       		.byte	0x7
@@ -8578,7 +8578,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  6554 7ddf 00       		.byte	0
  6555 7de0 20       		.uleb128 0x20
  6556 7de1 617400   		.ascii "at\0"
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 144
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 144
 
 
  6557 7de4 12       		.byte	0x12
@@ -8638,7 +8638,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  6598 7eb8 12       		.byte	0x12
  6599 7eb9 7704     		.word	0x477
  6600 7ebb 07       		.byte	0x7
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 145
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 145
 
 
  6601 7ebc 5F5A4E53 		.ascii "_ZNSt6vectorISt4pairIclESaIS1_EE4backEv\0"
@@ -8698,7 +8698,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  6640 7f8c 5F5A4E4B 		.ascii "_ZNKSt6vectorISt4pairIclESaIS1_EE4dataEv\0"
  6640      53743676 
  6640      6563746F 
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 146
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 146
 
 
  6640      72495374 
@@ -8758,7 +8758,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  6681      70616972 
  6682 8098 01       		.byte	0x1
  6683 8099 A1800000 		.long	0x80a1
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 147
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 147
 
 
  6684 809d A7800000 		.long	0x80a7
@@ -8818,7 +8818,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  6727      49537434 
  6727      70616972 
  6728 8212 C2760000 		.long	0x76c2
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 148
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 148
 
 
  6729 8216 01       		.byte	0x1
@@ -8878,7 +8878,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  6775 8328 12       		.byte	0x12
  6776 8329 B105     		.word	0x5b1
  6777 832b 07       		.byte	0x7
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 149
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 149
 
 
  6778 832c 5F5A4E53 		.ascii "_ZNSt6vectorISt4pairIclESaIS1_EE5eraseEN9__gnu_cxx17__normal_iteratorIPKS1_S3_EES8_\0"
@@ -8938,7 +8938,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  6817      696C6C5F 
  6817      696E6974 
  6817      69616C69 
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 150
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 150
 
 
  6817      7A6500
@@ -8998,7 +8998,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  6852 854b 02       		.byte	0x2
  6853 854c 54850000 		.long	0x8554
  6854 8550 64850000 		.long	0x8564
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 151
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 151
 
 
  6855 8554 08       		.uleb128 0x8
@@ -9058,7 +9058,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  6894 8657 20       		.uleb128 0x20
  6895 8658 5F4D5F73 		.ascii "_M_shrink_to_fit\0"
  6895      6872696E 
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 152
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 152
 
 
  6895      6B5F746F 
@@ -9118,7 +9118,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  6929      70616972 
  6930 87b8 C2760000 		.long	0x76c2
  6931 87bc 02       		.byte	0x2
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 153
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 153
 
 
  6932 87bd C5870000 		.long	0x87c5
@@ -9178,7 +9178,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  6971 889e 00       		.byte	0
  6972 889f 4D       		.uleb128 0x4d
  6973 88a0 5F535F6D 		.ascii "_S_max_size\0"
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 154
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 154
 
 
  6973      61785F73 
@@ -9238,7 +9238,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  7011 89c1 C2760000 		.long	0x76c2
  7012 89c5 00       		.byte	0
  7013 89c6 33       		.uleb128 0x33
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 155
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 155
 
 
  7014 89c7 63010000 		.secrel32	.LASF10
@@ -9298,7 +9298,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  7056 8b1d 12D00000 		.long	0xd012
  7057 8b21 09       		.uleb128 0x9
  7058 8b22 2A4A0000 		.long	0x4a2a
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 156
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 156
 
 
  7059 8b26 00       		.byte	0
@@ -9358,7 +9358,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  7093 8d0f 00       		.byte	0
  7094 8d10 4F       		.uleb128 0x4f
  7095 8d11 7E5F5F70 		.ascii "~__pair_base\0"
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 157
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 157
 
 
  7095      6169725F 
@@ -9418,7 +9418,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  7135 8dc8 00       		.byte	0
  7136 8dc9 22       		.uleb128 0x22
  7137 8dca 5F553100 		.ascii "_U1\0"
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 158
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 158
 
 
  7138 8dce 9CAE0000 		.long	0xae9c
@@ -9478,7 +9478,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  7178 8ebc 0C       		.byte	0xc
  7179 8ebd E68E0000 		.long	0x8ee6
  7180 8ec1 28       		.uleb128 0x28
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 159
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 159
 
 
  7181 8ec2 C2030000 		.secrel32	.LASF63
@@ -9538,7 +9538,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  7229 8f3c 0B       		.byte	0xb
  7230 8f3d 32AD0000 		.long	0xad32
  7231 8f41 44       		.uleb128 0x44
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 160
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 160
 
 
  7232 8f42 5F5F6378 		.ascii "__cxx11\0"
@@ -9598,7 +9598,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  7272 8fea F28F0000 		.long	0x8ff2
  7273 8fee FD8F0000 		.long	0x8ffd
  7274 8ff2 08       		.uleb128 0x8
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 161
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 161
 
 
  7275 8ff3 F8B00000 		.long	0xb0f8
@@ -9658,7 +9658,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  7321 90a2 01       		.byte	0x1
  7322 90a3 0B       		.uleb128 0xb
  7323 90a4 65000000 		.secrel32	.LASF4
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 162
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 162
 
 
  7324 90a8 16       		.byte	0x16
@@ -9718,7 +9718,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  7370 9162 16       		.byte	0x16
  7371 9163 3B       		.byte	0x3b
  7372 9164 1F       		.byte	0x1f
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 163
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 163
 
 
  7373 9165 3D4A0000 		.long	0x4a3d
@@ -9778,7 +9778,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  7415 924b 00       		.byte	0
  7416 924c 22       		.uleb128 0x22
  7417 924d 5F547000 		.ascii "_Tp\0"
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 164
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 164
 
 
  7418 9251 9CAE0000 		.long	0xae9c
@@ -9838,7 +9838,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  7472 92ad 53       		.uleb128 0x53
  7473 92ae 64697600 		.ascii "div\0"
  7474 92b2 0D       		.byte	0xd
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 165
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 165
 
 
  7475 92b3 D5       		.byte	0xd5
@@ -9898,7 +9898,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  7521 933d EC5A0000 		.long	0x5aec
  7522 9341 37       		.uleb128 0x37
  7523 9342 17       		.byte	0x17
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 166
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 166
 
 
  7524 9343 30       		.byte	0x30
@@ -9958,7 +9958,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  7568      755F6378 
  7568      7831345F 
  7568      5F616C6C 
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 167
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 167
 
 
  7569 9452 FAAD0000 		.long	0xadfa
@@ -10018,7 +10018,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  7607 958d AC030000 		.secrel32	.LASF1
  7608 9591 17       		.byte	0x17
  7609 9592 39       		.byte	0x39
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 168
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 168
 
 
  7610 9593 35       		.byte	0x35
@@ -10078,7 +10078,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  7658      5F697465 
  7658      7261746F 
  7658      723C6368 
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 169
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 169
 
 
  7659 966c 08       		.byte	0x8
@@ -10138,7 +10138,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  7705 9785 1F       		.uleb128 0x1f
  7706 9786 E2010000 		.secrel32	.LASF76
  7707 978a 18       		.byte	0x18
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 170
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 170
 
 
  7708 978b C803     		.word	0x3c8
@@ -10198,7 +10198,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  7750 98ff 00       		.byte	0
  7751 9900 1F       		.uleb128 0x1f
  7752 9901 A7020000 		.secrel32	.LASF78
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 171
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 171
 
 
  7753 9905 18       		.byte	0x18
@@ -10258,7 +10258,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  7795 9a76 C1020000 		.secrel32	.LASF22
  7796 9a7a 18       		.byte	0x18
  7797 9a7b EE03     		.word	0x3ee
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 172
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 172
 
 
  7798 9a7d 07       		.byte	0x7
@@ -10318,7 +10318,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  7840 9bf0 FF9B0000 		.long	0x9bff
  7841 9bf4 08       		.uleb128 0x8
  7842 9bf5 BBD00000 		.long	0xd0bb
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 173
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 173
 
 
  7843 9bf9 09       		.uleb128 0x9
@@ -10378,7 +10378,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  7884 9d6c 749D0000 		.long	0x9d74
  7885 9d70 7A9D0000 		.long	0x9d7a
  7886 9d74 08       		.uleb128 0x8
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 174
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 174
 
 
  7887 9d75 BBD00000 		.long	0xd0bb
@@ -10438,7 +10438,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  7930      7831375F 
  7930      5F6E6F72 
  7931 9efd 01       		.byte	0x1
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 175
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 175
 
 
  7932 9efe 069F0000 		.long	0x9f06
@@ -10498,7 +10498,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  7978 a022 00       		.byte	0
  7979 a023 1F       		.uleb128 0x1f
  7980 a024 A7020000 		.secrel32	.LASF78
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 176
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 176
 
 
  7981 a028 18       		.byte	0x18
@@ -10558,7 +10558,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  8023 a19c E803     		.word	0x3e8
  8024 a19e 07       		.byte	0x7
  8025 a19f 5F5A4E39 		.ascii "_ZN9__gnu_cxx17__normal_iteratorIPKcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEm
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 177
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 177
 
 
  8025      5F5F676E 
@@ -10618,7 +10618,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  8068 a318 97D00000 		.long	0xd097
  8069 a31c 09       		.uleb128 0x9
  8070 a31d 95A20000 		.long	0xa295
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 178
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 178
 
 
  8071 a321 00       		.byte	0
@@ -10678,7 +10678,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  8113 a497 A3D00000 		.long	0xd0a3
  8114 a49b 09       		.uleb128 0x9
  8115 a49c 95A20000 		.long	0xa295
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 179
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 179
 
 
  8116 a4a0 00       		.byte	0
@@ -10738,7 +10738,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  8157 a5af 00       		.byte	0
  8158 a5b0 32       		.uleb128 0x32
  8159 a5b1 6A020000 		.secrel32	.LASF64
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 180
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 180
 
 
  8160 a5b5 16       		.byte	0x16
@@ -10798,7 +10798,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  8202 a69e ADA60000 		.long	0xa6ad
  8203 a6a2 08       		.uleb128 0x8
  8204 a6a3 64CF0000 		.long	0xcf64
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 181
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 181
 
 
  8205 a6a7 09       		.uleb128 0x9
@@ -10858,7 +10858,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  8251 a771 01       		.byte	0x1
  8252 a772 7AA70000 		.long	0xa77a
  8253 a776 8AA70000 		.long	0xa78a
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 182
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 182
 
 
  8254 a77a 08       		.uleb128 0x8
@@ -10918,7 +10918,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  8300 a84b B9       		.byte	0xb9
  8301 a84c 07       		.byte	0x7
  8302 a84d 5F5A4E4B 		.ascii "_ZNK9__gnu_cxx13new_allocatorISt4pairIclEE11_M_max_sizeEv\0"
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 183
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 183
 
 
  8302      395F5F67 
@@ -10978,7 +10978,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  8349 a935 1D       		.byte	0x1d
  8350 a936 5F5A4E39 		.ascii "_ZN9__gnu_cxx14__alloc_traitsISaISt4pairIclEES2_E17_S_select_on_copyERKS3_\0"
  8350      5F5F676E 
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 184
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 184
 
 
  8350      755F6378 
@@ -11038,7 +11038,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  8387      7831345F 
  8387      5F616C6C 
  8388 aaf8 FAAD0000 		.long	0xadfa
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 185
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 185
 
 
  8389 aafc 56       		.uleb128 0x56
@@ -11098,7 +11098,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  8431 abf7 01       		.byte	0x1
  8432 abf8 17       		.byte	0x17
  8433 abf9 77       		.byte	0x77
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 186
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 186
 
 
  8434 abfa 0E       		.byte	0xe
@@ -11158,7 +11158,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  8469 ad6b 07       		.byte	0x7
  8470 ad6c 6C6F6E67 		.ascii "long unsigned int\0"
  8470      20756E73 
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 187
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 187
 
 
  8470      69676E65 
@@ -11218,7 +11218,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  8506 adf4 666C6F61 		.ascii "float\0"
  8506      7400
  8507 adfa 58       		.uleb128 0x58
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 188
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 188
 
 
  8508 adfb 01       		.byte	0x1
@@ -11278,7 +11278,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  8548 ae74 06       		.byte	0x6
  8549 ae75 38       		.byte	0x38
  8550 ae76 0B       		.byte	0xb
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 189
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 189
 
 
  8551 ae77 84AE0000 		.long	0xae84
@@ -11338,7 +11338,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  8594 aeef 59       		.uleb128 0x59
  8595 aef0 08       		.byte	0x8
  8596 aef1 9CAE0000 		.long	0xae9c
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 190
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 190
 
 
  8597 aef5 0E       		.uleb128 0xe
@@ -11398,7 +11398,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  8638      656E6379 
  8638      5F73796D 
  8638      626F6C00 
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 191
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 191
 
 
  8639 af79 1A       		.byte	0x1a
@@ -11458,7 +11458,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  8676 aff5 0B       		.byte	0xb
  8677 aff6 EFAE0000 		.long	0xaeef
  8678 affa 48       		.byte	0x48
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 192
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 192
 
 
  8679 affb 0A       		.uleb128 0xa
@@ -11518,7 +11518,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  8716 b07f 1A       		.byte	0x1a
  8717 b080 3D       		.byte	0x3d
  8718 b081 0A       		.byte	0xa
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 193
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 193
 
 
  8719 b082 9CAE0000 		.long	0xae9c
@@ -11578,7 +11578,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  8765 b0f8 59       		.uleb128 0x59
  8766 b0f9 08       		.byte	0x8
  8767 b0fa 618F0000 		.long	0x8f61
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 194
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 194
 
 
  8768 b0fe 5E       		.uleb128 0x5e
@@ -11638,7 +11638,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  8819 b166 5F626173 		.ascii "_base\0"
  8819      6500
  8820 b16c 1B       		.byte	0x1b
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 195
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 195
 
 
  8821 b16d 2C       		.byte	0x2c
@@ -11698,7 +11698,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  8867 b1d6 3E       		.uleb128 0x3e
  8868 b1d7 746D00   		.ascii "tm\0"
  8869 b1da 24       		.byte	0x24
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 196
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 196
 
 
  8870 b1db 1B       		.byte	0x1b
@@ -11758,7 +11758,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  8917      64617900 
  8918 b255 1B       		.byte	0x1b
  8919 b256 7605     		.word	0x576
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 197
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 197
 
 
  8920 b258 09       		.byte	0x9
@@ -11818,7 +11818,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  8967 b2d3 00       		.byte	0
  8968 b2d4 59       		.uleb128 0x59
  8969 b2d5 08       		.byte	0x8
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 198
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 198
 
 
  8970 b2d6 C9B10000 		.long	0xb1c9
@@ -11878,7 +11878,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  9020 b359 00       		.byte	0
  9021 b35a 63       		.uleb128 0x63
  9022 b35b 66777072 		.ascii "fwprintf\0"
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 199
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 199
 
 
  9022      696E7466 
@@ -11938,7 +11938,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  9070 b3dc 09       		.uleb128 0x9
  9071 b3dd 10B10000 		.long	0xb110
  9072 b3e1 09       		.uleb128 0x9
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 200
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 200
 
 
  9073 b3e2 A9AE0000 		.long	0xaea9
@@ -11998,7 +11998,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  9123 b464 ECB30000 		.long	0xb3ec
  9124 b468 00       		.byte	0
  9125 b469 59       		.uleb128 0x59
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 201
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 201
 
 
  9126 b46a 08       		.byte	0x8
@@ -12058,7 +12058,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  9177 b4e5 00       		.byte	0
  9178 b4e6 63       		.uleb128 0x63
  9179 b4e7 73777363 		.ascii "swscanf\0"
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 202
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 202
 
 
  9179      616E6600 
@@ -12118,7 +12118,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  9228 b56e 09       		.uleb128 0x9
  9229 b56f 84AE0000 		.long	0xae84
  9230 b573 00       		.byte	0
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 203
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 203
 
 
  9231 b574 66       		.uleb128 0x66
@@ -12178,7 +12178,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  9281 b5f1 00B60000 		.long	0xb600
  9282 b5f5 09       		.uleb128 0x9
  9283 b5f6 33B10000 		.long	0xb133
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 204
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 204
 
 
  9284 b5fa 09       		.uleb128 0x9
@@ -12238,7 +12238,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  9334 b67d 09       		.uleb128 0x9
  9335 b67e 33B10000 		.long	0xb133
  9336 b682 00       		.byte	0
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 205
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 205
 
 
  9337 b683 62       		.uleb128 0x62
@@ -12298,7 +12298,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  9386 b707 09       		.uleb128 0x9
  9387 b708 0DB70000 		.long	0xb70d
  9388 b70c 00       		.byte	0
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 206
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 206
 
 
  9389 b70d 59       		.uleb128 0x59
@@ -12358,7 +12358,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  9439 b791 09       		.uleb128 0x9
  9440 b792 33B10000 		.long	0xb133
  9441 b796 09       		.uleb128 0x9
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 207
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 207
 
 
  9442 b797 A9AE0000 		.long	0xaea9
@@ -12418,7 +12418,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  9491      6F6600
  9492 b81a 1B       		.byte	0x1b
  9493 b81b 0005     		.word	0x500
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 208
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 208
 
 
  9494 b81d 11       		.byte	0x11
@@ -12478,7 +12478,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  9544 b8a2 1B       		.byte	0x1b
  9545 b8a3 5405     		.word	0x554
  9546 b8a5 12       		.byte	0x12
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 209
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 209
 
 
  9547 b8a6 A9AE0000 		.long	0xaea9
@@ -12538,7 +12538,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  9596 b92b 1B       		.byte	0x1b
  9597 b92c BF05     		.word	0x5bf
  9598 b92e 14       		.byte	0x14
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 210
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 210
 
 
  9599 b92f FAAE0000 		.long	0xaefa
@@ -12598,7 +12598,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  9649 b9af FAAE0000 		.long	0xaefa
  9650 b9b3 C2B90000 		.long	0xb9c2
  9651 b9b7 09       		.uleb128 0x9
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 211
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 211
 
 
  9652 b9b8 33B10000 		.long	0xb133
@@ -12658,7 +12658,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  9702 ba3c 34AE0000 		.long	0xae34
  9703 ba40 09       		.uleb128 0x9
  9704 ba41 A9AE0000 		.long	0xaea9
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 212
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 212
 
 
  9705 ba45 00       		.byte	0
@@ -12718,7 +12718,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  9755 bac3 59       		.uleb128 0x59
  9756 bac4 08       		.byte	0x8
  9757 bac5 8D530000 		.long	0x538d
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 213
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 213
 
 
  9758 bac9 5E       		.uleb128 0x5e
@@ -12778,7 +12778,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  9803 bb40 15       		.uleb128 0x15
  9804 bb41 75696E74 		.ascii "uint64_t\0"
  9804      36345F74 
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 214
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 214
 
 
  9804      00
@@ -12838,7 +12838,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  9840      5F7400
  9841 bbcf 1D       		.byte	0x1d
  9842 bbd0 32       		.byte	0x32
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 215
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 215
 
 
  9843 bbd1 14       		.byte	0x14
@@ -12898,7 +12898,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  9880 bc53 53AD0000 		.long	0xad53
  9881 bc57 15       		.uleb128 0x15
  9882 bc58 696E745F 		.ascii "int_fast32_t\0"
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 216
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 216
 
 
  9882      66617374 
@@ -12958,7 +12958,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  9920 bcd9 66       		.byte	0x66
  9921 bcda 25       		.byte	0x25
  9922 bcdb C7AD0000 		.long	0xadc7
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 217
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 217
 
 
  9923 bcdf 0E       		.uleb128 0xe
@@ -13018,7 +13018,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  9970      7400
  9971 bd52 1F       		.byte	0x1f
  9972 bd53 3F       		.byte	0x3f
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 218
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 218
 
 
  9973 bd54 05       		.byte	0x5
@@ -13078,7 +13078,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  10021 bdbe 72656D00 		.ascii "rem\0"
  10022 bdc2 1F       		.byte	0x1f
  10023 bdc3 D702     		.word	0x2d7
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 219
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 219
 
 
  10024 bdc5 36       		.byte	0x36
@@ -13138,7 +13138,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  10073 be3e 00       		.byte	0
  10074 be3f 62       		.uleb128 0x62
  10075 be40 62736561 		.ascii "bsearch\0"
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 220
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 220
 
 
  10075      72636800 
@@ -13198,7 +13198,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  10127 bec4 1F       		.byte	0x1f
  10128 bec5 C301     		.word	0x1c3
  10129 bec7 12       		.byte	0x12
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 221
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 221
 
 
  10130 bec8 86BD0000 		.long	0xbd86
@@ -13258,7 +13258,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  10179 bf4a 1F       		.byte	0x1f
  10180 bf4b B301     		.word	0x1b3
  10181 bf4d 10       		.byte	0x10
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 222
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 222
 
 
  10182 bf4e 67BF0000 		.long	0xbf67
@@ -13318,7 +13318,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  10232 bfcc 00       		.byte	0
  10233 bfcd 62       		.uleb128 0x62
  10234 bfce 73747274 		.ascii "strtoul\0"
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 223
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 223
 
 
  10234      6F756C00 
@@ -13378,7 +13378,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  10284 c051 6C6C6469 		.ascii "lldiv\0"
  10284      7600
  10285 c057 1F       		.byte	0x1f
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 224
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 224
 
 
  10286 c058 D902     		.word	0x2d9
@@ -13438,7 +13438,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  10335 c0da 1F       		.byte	0x1f
  10336 c0db E501     		.word	0x1e5
  10337 c0dd 1F       		.byte	0x1f
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 225
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 225
 
 
  10338 c0de F1AD0000 		.long	0xadf1
@@ -13498,7 +13498,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  10387 c15c 66657272 		.ascii "ferror\0"
  10387      6F7200
  10388 c163 1E       		.byte	0x1e
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 226
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 226
 
 
  10389 c164 9802     		.word	0x298
@@ -13558,7 +13558,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  10439 c1e2 EFAE0000 		.long	0xaeef
  10440 c1e6 09       		.uleb128 0x9
  10441 c1e7 B4AD0000 		.long	0xadb4
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 227
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 227
 
 
  10442 c1eb 09       		.uleb128 0x9
@@ -13618,7 +13618,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  10492 c269 7DC20000 		.long	0xc27d
  10493 c26d 09       		.uleb128 0x9
  10494 c26e 10B10000 		.long	0xb110
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 228
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 228
 
 
  10495 c272 09       		.uleb128 0x9
@@ -13678,7 +13678,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  10545 c2ee AF02     		.word	0x2af
  10546 c2f0 10       		.byte	0x10
  10547 c2f1 BBAD0000 		.long	0xadbb
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 229
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 229
 
 
  10548 c2f5 FFC20000 		.long	0xc2ff
@@ -13738,7 +13738,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  10597 c372 00       		.byte	0
  10598 c373 62       		.uleb128 0x62
  10599 c374 72656E61 		.ascii "rename\0"
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 230
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 230
 
 
  10599      6D6500
@@ -13798,7 +13798,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  10649 c3f3 D4B20000 		.long	0xb2d4
  10650 c3f7 09       		.uleb128 0x9
  10651 c3f8 EFAE0000 		.long	0xaeef
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 231
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 231
 
 
  10652 c3fc 09       		.uleb128 0x9
@@ -13858,7 +13858,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  10701 c47b 1E       		.byte	0x1e
  10702 c47c 1903     		.word	0x319
  10703 c47e 0F       		.byte	0xf
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 232
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 232
 
 
  10704 c47f B4AD0000 		.long	0xadb4
@@ -13918,7 +13918,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  10752      696E7466 
  10752      00
  10753 c508 1E       		.byte	0x1e
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 233
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 233
 
 
  10754 c509 CC01     		.word	0x1cc
@@ -13978,7 +13978,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  10804 c58b 10B10000 		.long	0xb110
  10805 c58f 09       		.uleb128 0x9
  10806 c590 84AE0000 		.long	0xae84
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 234
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 234
 
 
  10807 c594 00       		.byte	0
@@ -14038,7 +14038,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  10860 c607 08       		.byte	0x8
  10861 c608 05080000 		.long	0x805
  10862 c60c 5E       		.uleb128 0x5e
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 235
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 235
 
 
  10863 c60d 08       		.byte	0x8
@@ -14098,7 +14098,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  10901 c69b 70       		.uleb128 0x70
  10902 c69c 554E4B4E 		.ascii "UNKNOWN_COMMAND\0"
  10902      4F574E5F 
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 236
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 236
 
 
  10902      434F4D4D 
@@ -14158,7 +14158,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  10938 c727 70       		.uleb128 0x70
  10939 c728 42454749 		.ascii "BEGIN_LOOP\0"
  10939      4E5F4C4F 
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 237
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 237
 
 
  10939      4F5000
@@ -14218,7 +14218,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  10981      70726574 
  10981      65723132 
  10982 c7c4 01       		.byte	0x1
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 238
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 238
 
 
  10983 c7c5 CDC70000 		.long	0xc7cd
@@ -14278,7 +14278,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  11024      6E746572 
  11024      70726574 
  11024      65723132 
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 239
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 239
 
 
  11025 c8c9 01       		.byte	0x1
@@ -14338,7 +14338,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  11070      33424649 
  11070      6E746572 
  11070      70726574 
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 240
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 240
 
 
  11070      65723132 
@@ -14398,7 +14398,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  11112 ca54 5ECA0000 		.long	0xca5e
  11113 ca58 08       		.uleb128 0x8
  11114 ca59 48D00000 		.long	0xd048
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 241
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 241
 
 
  11115 ca5d 00       		.byte	0
@@ -14458,7 +14458,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  11151 cb37 55CB0000 		.long	0xcb55
  11152 cb3b 08       		.uleb128 0x8
  11153 cb3c 30D00000 		.long	0xd030
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 242
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 242
 
 
  11154 cb40 09       		.uleb128 0x9
@@ -14518,7 +14518,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  11196 cc0f 09       		.uleb128 0x9
  11197 cc10 A9AE0000 		.long	0xaea9
  11198 cc14 00       		.byte	0
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 243
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 243
 
 
  11199 cc15 34       		.uleb128 0x34
@@ -14578,7 +14578,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  11239 ccd1 09       		.uleb128 0x9
  11240 ccd2 59D00000 		.long	0xd059
  11241 ccd6 00       		.byte	0
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 244
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 244
 
 
  11242 ccd7 32       		.uleb128 0x32
@@ -14638,7 +14638,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  11282 cd9e 6BD00000 		.long	0xd06b
  11283 cda2 00       		.byte	0
  11284 cda3 43       		.uleb128 0x43
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 245
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 245
 
 
  11285 cda4 45786563 		.ascii "ExecuteNextCommand\0"
@@ -14698,7 +14698,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  11319 ce6f 09       		.byte	0x9
  11320 ce70 1F       		.byte	0x1f
  11321 ce71 42AD0000 		.long	0xad42
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 246
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 246
 
 
  11322 ce75 01       		.byte	0x1
@@ -14758,7 +14758,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  11361 ceec 1F       		.byte	0x1f
  11362 ceed 17       		.byte	0x17
  11363 ceee 3CD00000 		.long	0xd03c
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 247
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 247
 
 
  11364 cef2 28       		.byte	0x28
@@ -14818,7 +14818,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  11411 cf89 08       		.byte	0x8
  11412 cf8a E9600000 		.long	0x60e9
  11413 cf8e 5E       		.uleb128 0x5e
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 248
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 248
 
 
  11414 cf8f 08       		.byte	0x8
@@ -14878,7 +14878,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  11468 cffb 08       		.byte	0x8
  11469 cffc C56D0000 		.long	0x6dc5
  11470 d000 5E       		.uleb128 0x5e
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 249
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 249
 
 
  11471 d001 08       		.byte	0x8
@@ -14938,7 +14938,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  11525 d06d 47CF0000 		.long	0xcf47
  11526 d071 59       		.uleb128 0x59
  11527 d072 08       		.byte	0x8
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 250
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 250
 
 
  11528 d073 63CE0000 		.long	0xce63
@@ -14998,7 +14998,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  11580 d0e5 24D10000 		.long	0xd124
  11581 d0e9 77       		.uleb128 0x77
  11582 d0ea 74686973 		.ascii "this\0"
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 251
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 251
 
 
  11582      00
@@ -15058,7 +15058,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  11633 0015 01       		.byte	0x1
  11634 0016 03       		.uleb128 0x3
  11635 0017 08       		.uleb128 0x8
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 252
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 252
 
 
  11636 0018 3A       		.uleb128 0x3a
@@ -15118,7 +15118,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  11690 004f 0B       		.uleb128 0xb
  11691 0050 01       		.uleb128 0x1
  11692 0051 13       		.uleb128 0x13
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 253
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 253
 
 
  11693 0052 00       		.byte	0
@@ -15178,7 +15178,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  11747 0088 08       		.uleb128 0x8
  11748 0089 3A       		.uleb128 0x3a
  11749 008a 0B       		.uleb128 0xb
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 254
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 254
 
 
  11750 008b 3B       		.uleb128 0x3b
@@ -15238,7 +15238,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  11804 00c1 13       		.uleb128 0x13
  11805 00c2 00       		.byte	0
  11806 00c3 00       		.byte	0
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 255
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 255
 
 
  11807 00c4 0E       		.uleb128 0xe
@@ -15298,7 +15298,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  11861 00fa 64       		.uleb128 0x64
  11862 00fb 13       		.uleb128 0x13
  11863 00fc 01       		.uleb128 0x1
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 256
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 256
 
 
  11864 00fd 13       		.uleb128 0x13
@@ -15358,7 +15358,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  11918 0133 2E       		.uleb128 0x2e
  11919 0134 01       		.byte	0x1
  11920 0135 3F       		.uleb128 0x3f
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 257
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 257
 
 
  11921 0136 19       		.uleb128 0x19
@@ -15418,7 +15418,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  11975 016c 13       		.uleb128 0x13
  11976 016d 01       		.uleb128 0x1
  11977 016e 13       		.uleb128 0x13
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 258
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 258
 
 
  11978 016f 00       		.byte	0
@@ -15478,7 +15478,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  12032 01a5 0E       		.uleb128 0xe
  12033 01a6 3A       		.uleb128 0x3a
  12034 01a7 0B       		.uleb128 0xb
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 259
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 259
 
 
  12035 01a8 3B       		.uleb128 0x3b
@@ -15538,7 +15538,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  12089 01de 01       		.uleb128 0x1
  12090 01df 13       		.uleb128 0x13
  12091 01e0 00       		.byte	0
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 260
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 260
 
 
  12092 01e1 00       		.byte	0
@@ -15598,7 +15598,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  12146 0217 2E       		.uleb128 0x2e
  12147 0218 01       		.byte	0x1
  12148 0219 3F       		.uleb128 0x3f
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 261
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 261
 
 
  12149 021a 19       		.uleb128 0x19
@@ -15658,7 +15658,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  12203 0250 08       		.uleb128 0x8
  12204 0251 3A       		.uleb128 0x3a
  12205 0252 0B       		.uleb128 0xb
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 262
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 262
 
 
  12206 0253 3B       		.uleb128 0x3b
@@ -15718,7 +15718,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  12260 0289 00       		.byte	0
  12261 028a 24       		.uleb128 0x24
  12262 028b 2F       		.uleb128 0x2f
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 263
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 263
 
 
  12263 028c 00       		.byte	0
@@ -15778,7 +15778,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  12317 02c2 3C       		.uleb128 0x3c
  12318 02c3 19       		.uleb128 0x19
  12319 02c4 6C       		.uleb128 0x6c
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 264
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 264
 
 
  12320 02c5 19       		.uleb128 0x19
@@ -15838,7 +15838,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  12374 02fb 0B       		.uleb128 0xb
  12375 02fc 00       		.byte	0
  12376 02fd 00       		.byte	0
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 265
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 265
 
 
  12377 02fe 2C       		.uleb128 0x2c
@@ -15898,7 +15898,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  12431 0335 0B       		.uleb128 0xb
  12432 0336 39       		.uleb128 0x39
  12433 0337 0B       		.uleb128 0xb
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 266
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 266
 
 
  12434 0338 00       		.byte	0
@@ -15958,7 +15958,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  12488 036e 13       		.uleb128 0x13
  12489 036f 01       		.uleb128 0x1
  12490 0370 13       		.uleb128 0x13
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 267
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 267
 
 
  12491 0371 00       		.byte	0
@@ -16018,7 +16018,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  12545 03a7 34       		.uleb128 0x34
  12546 03a8 2E       		.uleb128 0x2e
  12547 03a9 01       		.byte	0x1
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 268
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 268
 
 
  12548 03aa 3F       		.uleb128 0x3f
@@ -16078,7 +16078,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  12602 03e0 3F       		.uleb128 0x3f
  12603 03e1 19       		.uleb128 0x19
  12604 03e2 03       		.uleb128 0x3
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 269
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 269
 
 
  12605 03e3 08       		.uleb128 0x8
@@ -16138,7 +16138,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  12659 041a 00       		.byte	0
  12660 041b 39       		.uleb128 0x39
  12661 041c 02       		.uleb128 0x2
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 270
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 270
 
 
  12662 041d 00       		.byte	0
@@ -16198,7 +16198,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  12716 0454 3A       		.uleb128 0x3a
  12717 0455 0B       		.uleb128 0xb
  12718 0456 3B       		.uleb128 0x3b
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 271
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 271
 
 
  12719 0457 0B       		.uleb128 0xb
@@ -16258,7 +16258,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  12773 048d 39       		.uleb128 0x39
  12774 048e 0B       		.uleb128 0xb
  12775 048f 6E       		.uleb128 0x6e
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 272
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 272
 
 
  12776 0490 08       		.uleb128 0x8
@@ -16318,7 +16318,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  12830 04c6 43       		.uleb128 0x43
  12831 04c7 2E       		.uleb128 0x2e
  12832 04c8 01       		.byte	0x1
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 273
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 273
 
 
  12833 04c9 3F       		.uleb128 0x3f
@@ -16378,7 +16378,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  12887 0500 3C       		.uleb128 0x3c
  12888 0501 19       		.uleb128 0x19
  12889 0502 8B01     		.uleb128 0x8b
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 274
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 274
 
 
  12890 0504 0B       		.uleb128 0xb
@@ -16438,7 +16438,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  12944 053a 03       		.uleb128 0x3
  12945 053b 0E       		.uleb128 0xe
  12946 053c 3A       		.uleb128 0x3a
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 275
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 275
 
 
  12947 053d 0B       		.uleb128 0xb
@@ -16498,7 +16498,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  13001 0574 03       		.uleb128 0x3
  13002 0575 0E       		.uleb128 0xe
  13003 0576 3A       		.uleb128 0x3a
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 276
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 276
 
 
  13004 0577 0B       		.uleb128 0xb
@@ -16558,7 +16558,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  13058 05ae 13       		.uleb128 0x13
  13059 05af 32       		.uleb128 0x32
  13060 05b0 0B       		.uleb128 0xb
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 277
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 277
 
 
  13061 05b1 3C       		.uleb128 0x3c
@@ -16618,7 +16618,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  13115 05e9 00       		.byte	0
  13116 05ea 00       		.byte	0
  13117 05eb 50       		.uleb128 0x50
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 278
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 278
 
 
  13118 05ec 2E       		.uleb128 0x2e
@@ -16678,7 +16678,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  13172 0623 00       		.byte	0
  13173 0624 00       		.byte	0
  13174 0625 53       		.uleb128 0x53
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 279
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 279
 
 
  13175 0626 2E       		.uleb128 0x2e
@@ -16738,7 +16738,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  13229 065c 3B       		.uleb128 0x3b
  13230 065d 0B       		.uleb128 0xb
  13231 065e 39       		.uleb128 0x39
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 280
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 280
 
 
  13232 065f 0B       		.uleb128 0xb
@@ -16798,7 +16798,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  13286 0695 3E       		.uleb128 0x3e
  13287 0696 0B       		.uleb128 0xb
  13288 0697 03       		.uleb128 0x3
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 281
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 281
 
 
  13289 0698 08       		.uleb128 0x8
@@ -16858,7 +16858,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  13343 06ce 0B       		.uleb128 0xb
  13344 06cf 49       		.uleb128 0x49
  13345 06d0 13       		.uleb128 0x13
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 282
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 282
 
 
  13346 06d1 00       		.byte	0
@@ -16918,7 +16918,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  13400 0707 0B       		.uleb128 0xb
  13401 0708 49       		.uleb128 0x49
  13402 0709 13       		.uleb128 0x13
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 283
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 283
 
 
  13403 070a 3C       		.uleb128 0x3c
@@ -16978,7 +16978,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  13457 0740 03       		.uleb128 0x3
  13458 0741 08       		.uleb128 0x8
  13459 0742 3A       		.uleb128 0x3a
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 284
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 284
 
 
  13460 0743 0B       		.uleb128 0xb
@@ -17038,7 +17038,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  13514 0779 6B       		.uleb128 0x6b
  13515 077a 15       		.uleb128 0x15
  13516 077b 01       		.byte	0x1
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 285
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 285
 
 
  13517 077c 49       		.uleb128 0x49
@@ -17098,7 +17098,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  13571 07b2 3A       		.uleb128 0x3a
  13572 07b3 0B       		.uleb128 0xb
  13573 07b4 3B       		.uleb128 0x3b
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 286
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 286
 
 
  13574 07b5 0B       		.uleb128 0xb
@@ -17158,7 +17158,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  13628 07eb 63       		.uleb128 0x63
  13629 07ec 19       		.uleb128 0x19
  13630 07ed 64       		.uleb128 0x64
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 287
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 287
 
 
  13631 07ee 13       		.uleb128 0x13
@@ -17218,7 +17218,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  13685 0826 13       		.uleb128 0x13
  13686 0827 01       		.uleb128 0x1
  13687 0828 13       		.uleb128 0x13
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 288
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 288
 
 
  13688 0829 00       		.byte	0
@@ -17278,7 +17278,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  13742 0860 08       		.uleb128 0x8
  13743 0861 49       		.uleb128 0x49
  13744 0862 13       		.uleb128 0x13
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 289
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 289
 
 
  13745 0863 34       		.uleb128 0x34
@@ -17338,7 +17338,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  13799 0004 0200     		.word	0x2
  13800 0006 00000000 		.secrel32	.Ldebug_info0
  13801 000a 08       		.byte	0x8
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 290
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 290
 
 
  13802 000b 00       		.byte	0
@@ -17398,7 +17398,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  13828              	.LASF70:
  13829 0073 5F535F70 		.ascii "_S_propagate_on_copy_assign\0"
  13829      726F7061 
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 291
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 291
 
 
  13829      67617465 
@@ -17458,7 +17458,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  13855      6F766500 
  13856              	.LASF81:
  13857 011c 6F706572 		.ascii "operator-=\0"
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 292
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 292
 
 
  13857      61746F72 
@@ -17518,7 +17518,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  13881      6E7400
  13882              	.LASF36:
  13883 01bc 66696E64 		.ascii "find_last_of\0"
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 293
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 293
 
 
  13883      5F6C6173 
@@ -17578,7 +17578,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  13908              	.LASF90:
  13909 0253 5F5F6163 		.ascii "__acrt_iob_func\0"
  13909      72745F69 
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 294
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 294
 
 
  13909      6F625F66 
@@ -17638,7 +17638,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  13935 02eb 72656665 		.ascii "reference\0"
  13935      72656E63 
  13935      6500
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 295
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 295
 
 
  13936              	.LASF41:
@@ -17698,7 +17698,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  13959      746F7200 
  13960              	.LASF38:
  13961 0391 66696E64 		.ascii "find_last_not_of\0"
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 296
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 296
 
 
  13961      5F6C6173 
@@ -17758,7 +17758,7 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  13983      6F775F72 
  13983      656C6F63 
  13983      61746500 
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 297
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 297
 
 
  13984              	.LASF71:
@@ -17789,14 +17789,14 @@ GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 1
  13993      5F646174 
  13993      6100
  13994              		.ident	"GCC: (Rev3, Built by MSYS2 project) 10.1.0"
-GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s 			page 298
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s 			page 298
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 process_commands.cpp
-C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s:6      .rdata:0000000000000000 _ZStL19piecewise_construct
-C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s:9      .rdata:0000000000000004 _ZN13BFInterpreterL9UNSET_ARGE
-C:\Users\Ilya\AppData\Local\Temp\ccDRoCQX.s:16     .text:0000000000000000 _ZN13BFInterpreter7Process18ExecuteNextCommandEv
+C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s:6      .rdata:0000000000000000 _ZStL19piecewise_construct
+C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s:9      .rdata:0000000000000004 _ZN13BFInterpreterL9UNSET_ARGE
+C:\Users\Ilya\AppData\Local\Temp\cc4ACxKN.s:16     .text:0000000000000000 _ZN13BFInterpreter7Process18ExecuteNextCommandEv
 
 UNDEFINED SYMBOLS
 __imp___acrt_iob_func

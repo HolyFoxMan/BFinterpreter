@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1595160631 source:d:\coding\bfinterpreter\main.cpp
+1595285199 source:d:\coding\bfinterpreter\main.cpp
 	<iostream>
 	"process.hpp"
 	<type_traits>
@@ -19,7 +19,7 @@
 	<string>
 	"interpreterStatus.hpp"
 
-1595092072 source:d:\coding\bfinterpreter\transfer_unit.cpp
+1595285040 source:d:\coding\bfinterpreter\transfer_unit.cpp
 	"transfer_unit.hpp"
 	<stack>
 	<iostream>
