@@ -1,0 +1,167 @@
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccUSWVPf.s 			page 1
+
+
+   1              		.file	"main.cpp"
+   2              		.text
+   3              		.section	.text$_ZNKSt5ctypeIcE8do_widenEc,"x"
+   4              		.linkonce discard
+   5              		.align 2
+   6              		.p2align 4
+   7              		.globl	_ZNKSt5ctypeIcE8do_widenEc
+   9              		.seh_proc	_ZNKSt5ctypeIcE8do_widenEc
+  10              	_ZNKSt5ctypeIcE8do_widenEc:
+  11              	.LFB1411:
+  12              		.seh_endprologue
+  13 0000 89D0     		movl	%edx, %eax
+  14 0002 C3       		ret
+  15              		.seh_endproc
+  16 0003 90909090 		.text
+  16      90909090 
+  16      90909090 
+  16      90
+  17              		.p2align 4
+  19              		.seh_proc	__tcf_0
+  20              	__tcf_0:
+  21              	.LFB2157:
+  22              		.seh_endprologue
+  23 0000 488D0D00 		leaq	_ZStL8__ioinit(%rip), %rcx
+  23      000000
+  24 0007 E9000000 		jmp	_ZNSt8ios_base4InitD1Ev
+  24      00
+  25              		.seh_endproc
+  27 000c 90909090 		.section .rdata,"dr"
+  28              	.LC0:
+  29 0000 48656C6C 		.ascii "Hello world!\0"
+  29      6F20776F 
+  29      726C6421 
+  29      00
+  30 000d 000000   		.section	.text.startup,"x"
+  31              		.p2align 4
+  32              		.globl	main
+  34              		.seh_proc	main
+  35              	main:
+  36              	.LFB1656:
+  37 0000 4155     		pushq	%r13
+  38              		.seh_pushreg	%r13
+  39 0002 4154     		pushq	%r12
+  40              		.seh_pushreg	%r12
+  41 0004 4883EC28 		subq	$40, %rsp
+  42              		.seh_stackalloc	40
+  43              		.seh_endprologue
+  44 0008 E8000000 		call	__main
+  44      00
+  45 000d 488B0D00 		movq	.refptr._ZSt4cout(%rip), %rcx
+  45      000000
+  46 0014 488D1500 		leaq	.LC0(%rip), %rdx
+  46      000000
+  47 001b E8000000 		call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+  47      00
+  48 0020 4989C4   		movq	%rax, %r12
+  49 0023 488B00   		movq	(%rax), %rax
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccUSWVPf.s 			page 2
+
+
+  50 0026 488B40E8 		movq	-24(%rax), %rax
+  51 002a 4D8BAC04 		movq	240(%r12,%rax), %r13
+  51      F0000000 
+  52 0032 4D85ED   		testq	%r13, %r13
+  53 0035 7457     		je	.L9
+  54 0037 41807D38 		cmpb	$0, 56(%r13)
+  54      00
+  55 003c 7420     		je	.L6
+  56 003e 410FBE55 		movsbl	67(%r13), %edx
+  56      43
+  57              	.L7:
+  58 0043 4C89E1   		movq	%r12, %rcx
+  59 0046 E8000000 		call	_ZNSo3putEc
+  59      00
+  60 004b 4889C1   		movq	%rax, %rcx
+  61 004e E8000000 		call	_ZNSo5flushEv
+  61      00
+  62 0053 31C0     		xorl	%eax, %eax
+  63 0055 4883C428 		addq	$40, %rsp
+  64 0059 415C     		popq	%r12
+  65 005b 415D     		popq	%r13
+  66 005d C3       		ret
+  67              	.L6:
+  68 005e 4C89E9   		movq	%r13, %rcx
+  69 0061 E8000000 		call	_ZNKSt5ctypeIcE13_M_widen_initEv
+  69      00
+  70 0066 498B4500 		movq	0(%r13), %rax
+  71 006a BA0A0000 		movl	$10, %edx
+  71      00
+  72 006f 488D0D00 		leaq	_ZNKSt5ctypeIcE8do_widenEc(%rip), %rcx
+  72      000000
+  73 0076 488B4030 		movq	48(%rax), %rax
+  74 007a 4839C8   		cmpq	%rcx, %rax
+  75 007d 74C4     		je	.L7
+  76 007f BA0A0000 		movl	$10, %edx
+  76      00
+  77 0084 4C89E9   		movq	%r13, %rcx
+  78 0087 FFD0     		call	*%rax
+  79 0089 0FBED0   		movsbl	%al, %edx
+  80 008c EBB5     		jmp	.L7
+  81              	.L9:
+  82 008e E8000000 		call	_ZSt16__throw_bad_castv
+  82      00
+  83 0093 90       		nop
+  84              		.seh_endproc
+  85 0094 66662E0F 		.p2align 4
+  85      1F840000 
+  85      00000090 
+  87              		.seh_proc	_GLOBAL__sub_I_main
+  88              	_GLOBAL__sub_I_main:
+  89              	.LFB2158:
+  90 00a0 4883EC28 		subq	$40, %rsp
+  91              		.seh_stackalloc	40
+  92              		.seh_endprologue
+  93 00a4 488D0D00 		leaq	_ZStL8__ioinit(%rip), %rcx
+  93      000000
+  94 00ab E8000000 		call	_ZNSt8ios_base4InitC1Ev
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccUSWVPf.s 			page 3
+
+
+  94      00
+  95 00b0 488D0D00 		leaq	__tcf_0(%rip), %rcx
+  95      000000
+  96 00b7 4883C428 		addq	$40, %rsp
+  97 00bb E9000000 		jmp	atexit
+  97      00
+  98              		.seh_endproc
+  99              		.section	.ctors,"w"
+ 100              		.align 8
+ 101 0000 A0000000 		.quad	_GLOBAL__sub_I_main
+ 101      00000000 
+ 102              	.lcomm _ZStL8__ioinit,1,1
+ 103              		.ident	"GCC: (Rev3, Built by MSYS2 project) 10.1.0"
+ 112              		.section	.rdata$.refptr._ZSt4cout, "dr"
+ 113              		.globl	.refptr._ZSt4cout
+ 114              		.linkonce	discard
+ 115              	.refptr._ZSt4cout:
+ 116 0000 00000000 		.quad	_ZSt4cout
+ 116      00000000 
+ 116      00000000 
+ 116      00000000 
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\ccUSWVPf.s 			page 4
+
+
+DEFINED SYMBOLS
+                            *ABS*:0000000000000000 main.cpp
+C:\Users\Ilya\AppData\Local\Temp\ccUSWVPf.s:10     .text$_ZNKSt5ctypeIcE8do_widenEc:0000000000000000 _ZNKSt5ctypeIcE8do_widenEc
+C:\Users\Ilya\AppData\Local\Temp\ccUSWVPf.s:20     .text:0000000000000000 __tcf_0
+                             .bss:0000000000000000 _ZStL8__ioinit
+C:\Users\Ilya\AppData\Local\Temp\ccUSWVPf.s:35     .text.startup:0000000000000000 main
+C:\Users\Ilya\AppData\Local\Temp\ccUSWVPf.s:115    .rdata$.refptr._ZSt4cout:0000000000000000 .refptr._ZSt4cout
+C:\Users\Ilya\AppData\Local\Temp\ccUSWVPf.s:88     .text.startup:00000000000000a0 _GLOBAL__sub_I_main
+
+UNDEFINED SYMBOLS
+__main
+_ZNSt8ios_base4InitD1Ev
+_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+_ZNSo3putEc
+_ZNSo5flushEv
+_ZNKSt5ctypeIcE13_M_widen_initEv
+_ZSt16__throw_bad_castv
+_ZNSt8ios_base4InitC1Ev
+atexit
+_ZSt4cout

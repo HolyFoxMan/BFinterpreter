@@ -1,0 +1,53 @@
+# depslib dependency file v1.0
+1595160631 source:d:\coding\bfinterpreter\main.cpp
+	<iostream>
+	"process.hpp"
+	<type_traits>
+
+1594502032 source:d:\coding\bfinterpreter\interpreterstatus.cpp
+	"interpreterStatus.hpp"
+
+1594512394 d:\coding\bfinterpreter\interpreterstatus.hpp
+	<stdexcept>
+	<string>
+
+1594464277 source:d:\coding\bfinterpreter\bfinterpreter.cpp
+	"BFInterpreter.hpp"
+
+1594463602 d:\coding\bfinterpreter\bfinterpreter.hpp
+	<map>
+	<string>
+	"interpreterStatus.hpp"
+
+1595092072 source:d:\coding\bfinterpreter\transfer_unit.cpp
+	"transfer_unit.hpp"
+	<stack>
+	<iostream>
+
+1595091966 d:\coding\bfinterpreter\transfer_unit.hpp
+	<vector>
+	<utility>
+	<string>
+	"interpreter_status.hpp"
+
+1595077165 d:\coding\bfinterpreter\interpreter_status.hpp
+	<stdexcept>
+	<string>
+
+1594698170 source:d:\coding\bfinterpreter\executor.cpp
+
+1595077172 source:d:\coding\bfinterpreter\interpreter_status.cpp
+	"interpreter_status.hpp"
+
+1595077661 source:d:\coding\bfinterpreter\process.cpp
+	"process.hpp"
+	<stdexcept>
+	<cstring>
+
+1595077639 d:\coding\bfinterpreter\process.hpp
+	"transfer_unit.hpp"
+
+1595077881 source:d:\coding\bfinterpreter\process_commands.cpp
+	"process.hpp"
+	<cstdio>
+

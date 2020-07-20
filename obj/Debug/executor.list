@@ -1,0 +1,19 @@
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc7xJbXS.s 			page 1
+
+
+   1              		.file	"executor.cpp"
+   2              		.text
+   3              	.Ltext0:
+   4              		.cfi_sections	.debug_frame
+   5              	.Letext0:
+   6              		.section	.debug_line,"dr"
+   7              	.Ldebug_line0:
+   8              		.section	.debug_str,"dr"
+   9              		.ident	"GCC: (Rev3, Built by MSYS2 project) 10.1.0"
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc7xJbXS.s 			page 2
+
+
+DEFINED SYMBOLS
+                            *ABS*:0000000000000000 executor.cpp
+
+NO UNDEFINED SYMBOLS

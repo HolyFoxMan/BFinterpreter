@@ -1,0 +1,1673 @@
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc0d9lLf.s 			page 1
+
+
+   1              		.file	"transfer_unit.cpp"
+   2              		.text
+   3              		.section	.text$_ZN13BFInterpreter20InterpreterExceptionD1Ev,"x"
+   4              		.linkonce discard
+   5              		.align 2
+   6              		.p2align 4
+   7              		.globl	_ZN13BFInterpreter20InterpreterExceptionD1Ev
+   9              		.seh_proc	_ZN13BFInterpreter20InterpreterExceptionD1Ev
+  10              	_ZN13BFInterpreter20InterpreterExceptionD1Ev:
+  11              	.LFB2503:
+  12 0000 4154     		pushq	%r12
+  13              		.seh_pushreg	%r12
+  14 0002 4883EC20 		subq	$32, %rsp
+  15              		.seh_stackalloc	32
+  16              		.seh_endprologue
+  17 0006 488B0500 		movq	.refptr._ZTVN13BFInterpreter20InterpreterExceptionE(%rip), %rax
+  17      000000
+  18 000d 4883C010 		addq	$16, %rax
+  19 0011 488901   		movq	%rax, (%rcx)
+  20 0014 4989CC   		movq	%rcx, %r12
+  21 0017 488B4908 		movq	8(%rcx), %rcx
+  22 001b 498D4424 		leaq	24(%r12), %rax
+  22      18
+  23 0020 4839C1   		cmpq	%rax, %rcx
+  24 0023 740E     		je	.L2
+  25 0025 498B4424 		movq	24(%r12), %rax
+  25      18
+  26 002a 488D5001 		leaq	1(%rax), %rdx
+  27 002e E8000000 		call	_ZdlPvy
+  27      00
+  28              	.L2:
+  29 0033 4C89E1   		movq	%r12, %rcx
+  30 0036 4883C420 		addq	$32, %rsp
+  31 003a 415C     		popq	%r12
+  32 003c E9000000 		jmp	_ZNSt9exceptionD2Ev
+  32      00
+  33              		.seh_endproc
+  34 0041 90909090 		.section	.text$_ZNSt12_Vector_baseISt4pairIciESaIS1_EED2Ev,"x"
+  34      90909090 
+  34      90909090 
+  34      909090
+  35              		.linkonce discard
+  36              		.align 2
+  37              		.p2align 4
+  38              		.globl	_ZNSt12_Vector_baseISt4pairIciESaIS1_EED2Ev
+  40              		.seh_proc	_ZNSt12_Vector_baseISt4pairIciESaIS1_EED2Ev
+  41              	_ZNSt12_Vector_baseISt4pairIciESaIS1_EED2Ev:
+  42              	.LFB2030:
+  43              		.seh_endprologue
+  44 0000 4C8B01   		movq	(%rcx), %r8
+  45 0003 4D85C0   		testq	%r8, %r8
+  46 0006 7418     		je	.L4
+  47 0008 488B5110 		movq	16(%rcx), %rdx
+  48 000c 4C89C1   		movq	%r8, %rcx
+  49 000f 4C29C2   		subq	%r8, %rdx
+  50 0012 E9000000 		jmp	_ZdlPvy
+  50      00
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc0d9lLf.s 			page 2
+
+
+  51 0017 660F1F84 		.p2align 4,,10
+  51      00000000 
+  51      00
+  52              		.p2align 3
+  53              	.L4:
+  54 0020 C3       		ret
+  55              		.seh_endproc
+  56 0021 90909090 		.section	.text$_ZNSt11_Deque_baseIN9__gnu_cxx17__normal_iteratorIPSt4pairIciESt6vectorIS3_SaIS3_EE
+  56      90909090 
+  56      90909090 
+  56      909090
+  57              		.linkonce discard
+  58              		.align 2
+  59              		.p2align 4
+  60              		.globl	_ZNSt11_Deque_baseIN9__gnu_cxx17__normal_iteratorIPSt4pairIciESt6vectorIS3_SaIS3_EEEESaIS8_
+  62              		.seh_proc	_ZNSt11_Deque_baseIN9__gnu_cxx17__normal_iteratorIPSt4pairIciESt6vectorIS3_SaIS3_EEEESaI
+  63              	_ZNSt11_Deque_baseIN9__gnu_cxx17__normal_iteratorIPSt4pairIciESt6vectorIS3_SaIS3_EEEESaIS8_EED2Ev:
+  64              	.LFB2203:
+  65 0000 57       		pushq	%rdi
+  66              		.seh_pushreg	%rdi
+  67 0001 56       		pushq	%rsi
+  68              		.seh_pushreg	%rsi
+  69 0002 53       		pushq	%rbx
+  70              		.seh_pushreg	%rbx
+  71 0003 4883EC20 		subq	$32, %rsp
+  72              		.seh_stackalloc	32
+  73              		.seh_endprologue
+  74 0007 4889CF   		movq	%rcx, %rdi
+  75 000a 488B09   		movq	(%rcx), %rcx
+  76 000d 4885C9   		testq	%rcx, %rcx
+  77 0010 7446     		je	.L6
+  78 0012 488B4748 		movq	72(%rdi), %rax
+  79 0016 488B5F28 		movq	40(%rdi), %rbx
+  80 001a 488D7008 		leaq	8(%rax), %rsi
+  81 001e 4839DE   		cmpq	%rbx, %rsi
+  82 0021 761E     		jbe	.L8
+  83              		.p2align 4,,10
+  84 0023 0F1F4400 		.p2align 3
+  84      00
+  85              	.L9:
+  86 0028 488B0B   		movq	(%rbx), %rcx
+  87 002b BA000200 		movl	$512, %edx
+  87      00
+  88 0030 4883C308 		addq	$8, %rbx
+  89 0034 E8000000 		call	_ZdlPvy
+  89      00
+  90 0039 4839DE   		cmpq	%rbx, %rsi
+  91 003c 77EA     		ja	.L9
+  92 003e 488B0F   		movq	(%rdi), %rcx
+  93              	.L8:
+  94 0041 488B5708 		movq	8(%rdi), %rdx
+  95 0045 48C1E203 		salq	$3, %rdx
+  96 0049 4883C420 		addq	$32, %rsp
+  97 004d 5B       		popq	%rbx
+  98 004e 5E       		popq	%rsi
+  99 004f 5F       		popq	%rdi
+ 100 0050 E9000000 		jmp	_ZdlPvy
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc0d9lLf.s 			page 3
+
+
+ 100      00
+ 101              		.p2align 4,,10
+ 102 0055 0F1F00   		.p2align 3
+ 103              	.L6:
+ 104 0058 4883C420 		addq	$32, %rsp
+ 105 005c 5B       		popq	%rbx
+ 106 005d 5E       		popq	%rsi
+ 107 005e 5F       		popq	%rdi
+ 108 005f C3       		ret
+ 109              		.seh_endproc
+ 110              		.section .rdata,"dr"
+ 111              		.align 8
+ 112              	.LC0:
+ 113 0000 63616E6E 		.ascii "cannot create std::deque larger than max_size()\0"
+ 113      6F742063 
+ 113      72656174 
+ 113      65207374 
+ 113      643A3A64 
+ 114              		.text
+ 115              		.align 2
+ 116              		.p2align 4
+ 117              		.globl	_ZN13BFInterpreter12TransferUnit19BindBracketsByIndexEv
+ 119              		.seh_proc	_ZN13BFInterpreter12TransferUnit19BindBracketsByIndexEv
+ 120              	_ZN13BFInterpreter12TransferUnit19BindBracketsByIndexEv:
+ 121              	.LFB1780:
+ 122 0000 4157     		pushq	%r15
+ 123              		.seh_pushreg	%r15
+ 124 0002 4156     		pushq	%r14
+ 125              		.seh_pushreg	%r14
+ 126 0004 4155     		pushq	%r13
+ 127              		.seh_pushreg	%r13
+ 128 0006 4154     		pushq	%r12
+ 129              		.seh_pushreg	%r12
+ 130 0008 55       		pushq	%rbp
+ 131              		.seh_pushreg	%rbp
+ 132 0009 57       		pushq	%rdi
+ 133              		.seh_pushreg	%rdi
+ 134 000a 56       		pushq	%rsi
+ 135              		.seh_pushreg	%rsi
+ 136 000b 53       		pushq	%rbx
+ 137              		.seh_pushreg	%rbx
+ 138 000c 4883EC78 		subq	$120, %rsp
+ 139              		.seh_stackalloc	120
+ 140              		.seh_endprologue
+ 141 0010 48C74424 		movq	$0, 32(%rsp)
+ 141      20000000 
+ 141      00
+ 142 0019 4889CE   		movq	%rcx, %rsi
+ 143 001c B9400000 		movl	$64, %ecx
+ 143      00
+ 144 0021 48C74424 		movq	$0, 48(%rsp)
+ 144      30000000 
+ 144      00
+ 145 002a 48C74424 		movq	$0, 56(%rsp)
+ 145      38000000 
+ 145      00
+ 146 0033 48C74424 		movq	$0, 64(%rsp)
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc0d9lLf.s 			page 4
+
+
+ 146      40000000 
+ 146      00
+ 147 003c 48C74424 		movq	$0, 72(%rsp)
+ 147      48000000 
+ 147      00
+ 148 0045 48C74424 		movq	$0, 80(%rsp)
+ 148      50000000 
+ 148      00
+ 149 004e 48C74424 		movq	$0, 88(%rsp)
+ 149      58000000 
+ 149      00
+ 150 0057 48C74424 		movq	$0, 96(%rsp)
+ 150      60000000 
+ 150      00
+ 151 0060 48C74424 		movq	$0, 104(%rsp)
+ 151      68000000 
+ 151      00
+ 152 0069 48C74424 		movq	$8, 40(%rsp)
+ 152      28080000 
+ 152      00
+ 153              	.LEHB0:
+ 154 0072 E8000000 		call	_Znwy
+ 154      00
+ 155              	.LEHE0:
+ 156 0077 488B5424 		movq	40(%rsp), %rdx
+ 156      28
+ 157 007c B9000200 		movl	$512, %ecx
+ 157      00
+ 158 0081 48894424 		movq	%rax, 32(%rsp)
+ 158      20
+ 159 0086 488D1C95 		leaq	-4(,%rdx,4), %rbx
+ 159      FCFFFFFF 
+ 160 008e 4883E3F8 		andq	$-8, %rbx
+ 161 0092 4801C3   		addq	%rax, %rbx
+ 162              	.LEHB1:
+ 163 0095 E8000000 		call	_Znwy
+ 163      00
+ 164              	.LEHE1:
+ 165 009a 488D9000 		leaq	512(%rax), %rdx
+ 165      020000
+ 166 00a1 488903   		movq	%rax, (%rbx)
+ 167 00a4 BD010000 		movl	$1, %ebp
+ 167      00
+ 168 00a9 48BFFFFF 		movabsq	$1152921504606846975, %rdi
+ 168      FFFFFFFF 
+ 168      FF0F
+ 169 00b3 48895C24 		movq	%rbx, 72(%rsp)
+ 169      48
+ 170 00b8 48895C24 		movq	%rbx, 104(%rsp)
+ 170      68
+ 171 00bd 488B1E   		movq	(%rsi), %rbx
+ 172 00c0 48894424 		movq	%rax, 56(%rsp)
+ 172      38
+ 173 00c5 48895424 		movq	%rdx, 64(%rsp)
+ 173      40
+ 174 00ca 48894424 		movq	%rax, 88(%rsp)
+ 174      58
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc0d9lLf.s 			page 5
+
+
+ 175 00cf 48895424 		movq	%rdx, 96(%rsp)
+ 175      60
+ 176 00d4 48894424 		movq	%rax, 48(%rsp)
+ 176      30
+ 177 00d9 48894424 		movq	%rax, 80(%rsp)
+ 177      50
+ 178 00de 483B5E08 		cmpq	8(%rsi), %rbx
+ 179 00e2 751A     		jne	.L27
+ 180 00e4 EB4C     		jmp	.L28
+ 181 00e6 662E0F1F 		.p2align 4,,10
+ 181      84000000 
+ 181      0000
+ 182              		.p2align 3
+ 183              	.L16:
+ 184 00f0 3C5D     		cmpb	$93, %al
+ 185 00f2 745C     		je	.L37
+ 186              	.L18:
+ 187 00f4 4883C308 		addq	$8, %rbx
+ 188 00f8 48395E08 		cmpq	%rbx, 8(%rsi)
+ 189 00fc 7434     		je	.L28
+ 190              	.L27:
+ 191 00fe 0FB603   		movzbl	(%rbx), %eax
+ 192 0101 3C5B     		cmpb	$91, %al
+ 193 0103 75EB     		jne	.L16
+ 194 0105 488B4C24 		movq	96(%rsp), %rcx
+ 194      60
+ 195 010a 488B4424 		movq	80(%rsp), %rax
+ 195      50
+ 196 010f 488D51F8 		leaq	-8(%rcx), %rdx
+ 197 0113 4839D0   		cmpq	%rdx, %rax
+ 198 0116 0F84D400 		je	.L17
+ 198      0000
+ 199 011c 488918   		movq	%rbx, (%rax)
+ 200 011f 4883C008 		addq	$8, %rax
+ 201 0123 4883C308 		addq	$8, %rbx
+ 202 0127 48894424 		movq	%rax, 80(%rsp)
+ 202      50
+ 203 012c 48395E08 		cmpq	%rbx, 8(%rsi)
+ 204 0130 75CC     		jne	.L27
+ 205              	.L28:
+ 206 0132 488D4C24 		leaq	32(%rsp), %rcx
+ 206      20
+ 207 0137 E8000000 		call	_ZNSt11_Deque_baseIN9__gnu_cxx17__normal_iteratorIPSt4pairIciESt6vectorIS3_SaIS3_EEEESaIS8_EE
+ 207      00
+ 208 013c 90       		nop
+ 209 013d 4883C478 		addq	$120, %rsp
+ 210 0141 5B       		popq	%rbx
+ 211 0142 5E       		popq	%rsi
+ 212 0143 5F       		popq	%rdi
+ 213 0144 5D       		popq	%rbp
+ 214 0145 415C     		popq	%r12
+ 215 0147 415D     		popq	%r13
+ 216 0149 415E     		popq	%r14
+ 217 014b 415F     		popq	%r15
+ 218 014d C3       		ret
+ 219 014e 6690     		.p2align 4,,10
+ 220              		.p2align 3
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc0d9lLf.s 			page 6
+
+
+ 221              	.L37:
+ 222 0150 4C8B06   		movq	(%rsi), %r8
+ 223 0153 4889DA   		movq	%rbx, %rdx
+ 224 0156 488B4C24 		movq	80(%rsp), %rcx
+ 224      50
+ 225 015b 4C29C2   		subq	%r8, %rdx
+ 226 015e 48C1FA03 		sarq	$3, %rdx
+ 227 0162 483B4C24 		cmpq	88(%rsp), %rcx
+ 227      58
+ 228 0167 7427     		je	.L38
+ 229 0169 488B41F8 		movq	-8(%rcx), %rax
+ 230 016d 4883E908 		subq	$8, %rcx
+ 231 0171 895004   		movl	%edx, 4(%rax)
+ 232 0174 4C29C0   		subq	%r8, %rax
+ 233 0177 48C1F803 		sarq	$3, %rax
+ 234 017b 894304   		movl	%eax, 4(%rbx)
+ 235 017e 48894C24 		movq	%rcx, 80(%rsp)
+ 235      50
+ 236 0183 E96CFFFF 		jmp	.L18
+ 236      FF
+ 237 0188 0F1F8400 		.p2align 4,,10
+ 237      00000000 
+ 238              		.p2align 3
+ 239              	.L38:
+ 240 0190 488B4424 		movq	104(%rsp), %rax
+ 240      68
+ 241 0195 488B40F8 		movq	-8(%rax), %rax
+ 242 0199 488B80F8 		movq	504(%rax), %rax
+ 242      010000
+ 243 01a0 895004   		movl	%edx, 4(%rax)
+ 244 01a3 4C29C0   		subq	%r8, %rax
+ 245 01a6 BA000200 		movl	$512, %edx
+ 245      00
+ 246 01ab 48C1F803 		sarq	$3, %rax
+ 247 01af 894304   		movl	%eax, 4(%rbx)
+ 248 01b2 E8000000 		call	_ZdlPvy
+ 248      00
+ 249 01b7 488B4424 		movq	104(%rsp), %rax
+ 249      68
+ 250 01bc 488D50F8 		leaq	-8(%rax), %rdx
+ 251 01c0 488B40F8 		movq	-8(%rax), %rax
+ 252 01c4 48895424 		movq	%rdx, 104(%rsp)
+ 252      68
+ 253 01c9 48894424 		movq	%rax, 88(%rsp)
+ 253      58
+ 254 01ce 488D9000 		leaq	512(%rax), %rdx
+ 254      020000
+ 255 01d5 4805F801 		addq	$504, %rax
+ 255      0000
+ 256 01db 48895424 		movq	%rdx, 96(%rsp)
+ 256      60
+ 257 01e0 48894424 		movq	%rax, 80(%rsp)
+ 257      50
+ 258 01e5 E90AFFFF 		jmp	.L18
+ 258      FF
+ 259 01ea 660F1F44 		.p2align 4,,10
+ 259      0000
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc0d9lLf.s 			page 7
+
+
+ 260              		.p2align 3
+ 261              	.L17:
+ 262 01f0 4C8B6424 		movq	104(%rsp), %r12
+ 262      68
+ 263 01f5 4C8B4C24 		movq	72(%rsp), %r9
+ 263      48
+ 264 01fa 482B4424 		subq	88(%rsp), %rax
+ 264      58
+ 265 01ff 4D89E5   		movq	%r12, %r13
+ 266 0202 48C1F803 		sarq	$3, %rax
+ 267 0206 4D29CD   		subq	%r9, %r13
+ 268 0209 4C89E9   		movq	%r13, %rcx
+ 269 020c 48C1F903 		sarq	$3, %rcx
+ 270 0210 488D51FF 		leaq	-1(%rcx), %rdx
+ 271 0214 48C1E206 		salq	$6, %rdx
+ 272 0218 4801C2   		addq	%rax, %rdx
+ 273 021b 488B4424 		movq	64(%rsp), %rax
+ 273      40
+ 274 0220 482B4424 		subq	48(%rsp), %rax
+ 274      30
+ 275 0225 48C1F803 		sarq	$3, %rax
+ 276 0229 4801D0   		addq	%rdx, %rax
+ 277 022c 4839F8   		cmpq	%rdi, %rax
+ 278 022f 0F847301 		je	.L39
+ 278      0000
+ 279 0235 4C8B5424 		movq	32(%rsp), %r10
+ 279      20
+ 280 023a 488B5424 		movq	40(%rsp), %rdx
+ 280      28
+ 281 023f 4C89E0   		movq	%r12, %rax
+ 282 0242 4C29D0   		subq	%r10, %rax
+ 283 0245 4989D0   		movq	%rdx, %r8
+ 284 0248 48C1F803 		sarq	$3, %rax
+ 285 024c 4929C0   		subq	%rax, %r8
+ 286 024f 4983F801 		cmpq	$1, %r8
+ 287 0253 764B     		jbe	.L40
+ 288              	.L20:
+ 289 0255 B9000200 		movl	$512, %ecx
+ 289      00
+ 290              	.LEHB2:
+ 291 025a E8000000 		call	_Znwy
+ 291      00
+ 292 025f 49894424 		movq	%rax, 8(%r12)
+ 292      08
+ 293 0264 488B4424 		movq	80(%rsp), %rax
+ 293      50
+ 294 0269 488918   		movq	%rbx, (%rax)
+ 295 026c 488B4424 		movq	104(%rsp), %rax
+ 295      68
+ 296 0271 488D5008 		leaq	8(%rax), %rdx
+ 297 0275 488B4008 		movq	8(%rax), %rax
+ 298 0279 48895424 		movq	%rdx, 104(%rsp)
+ 298      68
+ 299 027e 488D9000 		leaq	512(%rax), %rdx
+ 299      020000
+ 300 0285 48894424 		movq	%rax, 88(%rsp)
+ 300      58
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc0d9lLf.s 			page 8
+
+
+ 301 028a 48895424 		movq	%rdx, 96(%rsp)
+ 301      60
+ 302 028f 48894424 		movq	%rax, 80(%rsp)
+ 302      50
+ 303 0294 E95BFEFF 		jmp	.L18
+ 303      FF
+ 304 0299 0F1F8000 		.p2align 4,,10
+ 304      000000
+ 305              		.p2align 3
+ 306              	.L40:
+ 307 02a0 4C8D7102 		leaq	2(%rcx), %r14
+ 308 02a4 4B8D0436 		leaq	(%r14,%r14), %rax
+ 309 02a8 4839C2   		cmpq	%rax, %rdx
+ 310 02ab 0F87AE00 		ja	.L41
+ 310      0000
+ 311 02b1 4885D2   		testq	%rdx, %rdx
+ 312 02b4 4889E8   		movq	%rbp, %rax
+ 313 02b7 480F45C2 		cmovne	%rdx, %rax
+ 314 02bb 4C8D6402 		leaq	2(%rdx,%rax), %r12
+ 314      02
+ 315 02c0 4939FC   		cmpq	%rdi, %r12
+ 316 02c3 0F87DA00 		ja	.L42
+ 316      0000
+ 317 02c9 4A8D0CE5 		leaq	0(,%r12,8), %rcx
+ 317      00000000 
+ 318 02d1 E8000000 		call	_Znwy
+ 318      00
+ 319 02d6 4989C7   		movq	%rax, %r15
+ 320 02d9 4C89E0   		movq	%r12, %rax
+ 321 02dc 488B5424 		movq	72(%rsp), %rdx
+ 321      48
+ 322 02e1 4C29F0   		subq	%r14, %rax
+ 323 02e4 48D1E8   		shrq	%rax
+ 324 02e7 4D8D34C7 		leaq	(%r15,%rax,8), %r14
+ 325 02eb 488B4424 		movq	104(%rsp), %rax
+ 325      68
+ 326 02f0 4C8D4008 		leaq	8(%rax), %r8
+ 327 02f4 4939D0   		cmpq	%rdx, %r8
+ 328 02f7 740B     		je	.L25
+ 329 02f9 4929D0   		subq	%rdx, %r8
+ 330 02fc 4C89F1   		movq	%r14, %rcx
+ 331 02ff E8000000 		call	memmove
+ 331      00
+ 332              	.L25:
+ 333 0304 488B4424 		movq	40(%rsp), %rax
+ 333      28
+ 334 0309 488B4C24 		movq	32(%rsp), %rcx
+ 334      20
+ 335 030e 488D14C5 		leaq	0(,%rax,8), %rdx
+ 335      00000000 
+ 336 0316 E8000000 		call	_ZdlPvy
+ 336      00
+ 337 031b 4C897C24 		movq	%r15, 32(%rsp)
+ 337      20
+ 338 0320 4C896424 		movq	%r12, 40(%rsp)
+ 338      28
+ 339              	.L23:
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc0d9lLf.s 			page 9
+
+
+ 340 0325 498B06   		movq	(%r14), %rax
+ 341 0328 4F8D242E 		leaq	(%r14,%r13), %r12
+ 342 032c 4C897424 		movq	%r14, 72(%rsp)
+ 342      48
+ 343 0331 4C896424 		movq	%r12, 104(%rsp)
+ 343      68
+ 344 0336 48894424 		movq	%rax, 56(%rsp)
+ 344      38
+ 345 033b 48050002 		addq	$512, %rax
+ 345      0000
+ 346 0341 48894424 		movq	%rax, 64(%rsp)
+ 346      40
+ 347 0346 498B0424 		movq	(%r12), %rax
+ 348 034a 48894424 		movq	%rax, 88(%rsp)
+ 348      58
+ 349 034f 48050002 		addq	$512, %rax
+ 349      0000
+ 350 0355 48894424 		movq	%rax, 96(%rsp)
+ 350      60
+ 351 035a E9F6FEFF 		jmp	.L20
+ 351      FF
+ 352              	.L41:
+ 353 035f 4C29F2   		subq	%r14, %rdx
+ 354 0362 4983C408 		addq	$8, %r12
+ 355 0366 48D1EA   		shrq	%rdx
+ 356 0369 4D89E0   		movq	%r12, %r8
+ 357 036c 4D8D34D2 		leaq	(%r10,%rdx,8), %r14
+ 358 0370 4D29C8   		subq	%r9, %r8
+ 359 0373 4D39F1   		cmpq	%r14, %r9
+ 360 0376 7612     		jbe	.L22
+ 361 0378 4D39E1   		cmpq	%r12, %r9
+ 362 037b 74A8     		je	.L23
+ 363 037d 4C89CA   		movq	%r9, %rdx
+ 364 0380 4C89F1   		movq	%r14, %rcx
+ 365 0383 E8000000 		call	memmove
+ 365      00
+ 366 0388 EB9B     		jmp	.L23
+ 367              	.L22:
+ 368 038a 4D39E1   		cmpq	%r12, %r9
+ 369 038d 7496     		je	.L23
+ 370 038f 498D4D08 		leaq	8(%r13), %rcx
+ 371 0393 4C89CA   		movq	%r9, %rdx
+ 372 0396 4C29C1   		subq	%r8, %rcx
+ 373 0399 4C01F1   		addq	%r14, %rcx
+ 374 039c E8000000 		call	memmove
+ 374      00
+ 375 03a1 EB82     		jmp	.L23
+ 376              	.L42:
+ 377 03a3 E8000000 		call	_ZSt17__throw_bad_allocv
+ 377      00
+ 378              	.L39:
+ 379 03a8 488D0D00 		leaq	.LC0(%rip), %rcx
+ 379      000000
+ 380 03af E8000000 		call	_ZSt20__throw_length_errorPKc
+ 380      00
+ 381              	.LEHE2:
+ 382              	.L30:
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc0d9lLf.s 			page 10
+
+
+ 383 03b4 4989C4   		movq	%rax, %r12
+ 384 03b7 488D4C24 		leaq	32(%rsp), %rcx
+ 384      20
+ 385 03bc E8000000 		call	_ZNSt11_Deque_baseIN9__gnu_cxx17__normal_iteratorIPSt4pairIciESt6vectorIS3_SaIS3_EEEESaIS8_EE
+ 385      00
+ 386 03c1 4C89E1   		movq	%r12, %rcx
+ 387              	.LEHB3:
+ 388 03c4 E8000000 		call	_Unwind_Resume
+ 388      00
+ 389              	.LEHE3:
+ 390              	.L32:
+ 391 03c9 4889C1   		movq	%rax, %rcx
+ 392 03cc E8000000 		call	__cxa_begin_catch
+ 392      00
+ 393              	.LEHB4:
+ 394 03d1 E8000000 		call	__cxa_rethrow
+ 394      00
+ 395              	.LEHE4:
+ 396              	.L33:
+ 397 03d6 4989C4   		movq	%rax, %r12
+ 398 03d9 E8000000 		call	__cxa_end_catch
+ 398      00
+ 399 03de 4C89E1   		movq	%r12, %rcx
+ 400 03e1 E8000000 		call	__cxa_begin_catch
+ 400      00
+ 401 03e6 488B4424 		movq	40(%rsp), %rax
+ 401      28
+ 402 03eb 488B4C24 		movq	32(%rsp), %rcx
+ 402      20
+ 403 03f0 488D14C5 		leaq	0(,%rax,8), %rdx
+ 403      00000000 
+ 404 03f8 E8000000 		call	_ZdlPvy
+ 404      00
+ 405 03fd 48C74424 		movq	$0, 32(%rsp)
+ 405      20000000 
+ 405      00
+ 406 0406 48C74424 		movq	$0, 40(%rsp)
+ 406      28000000 
+ 406      00
+ 407              	.LEHB5:
+ 408 040f E8000000 		call	__cxa_rethrow
+ 408      00
+ 409              	.LEHE5:
+ 410              	.L31:
+ 411 0414 4989C4   		movq	%rax, %r12
+ 412 0417 E8000000 		call	__cxa_end_catch
+ 412      00
+ 413 041c 4C89E1   		movq	%r12, %rcx
+ 414              	.LEHB6:
+ 415 041f E8000000 		call	_Unwind_Resume
+ 415      00
+ 416 0424 90       		nop
+ 417              	.LEHE6:
+ 419              		.seh_handler	__gxx_personality_seh0, @unwind, @except
+ 420              		.seh_handlerdata
+ 421              		.align 4
+ 422              	.LLSDA1780:
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc0d9lLf.s 			page 11
+
+
+ 423 001c FF       		.byte	0xff
+ 424 001d 9B       		.byte	0x9b
+ 425 001e 31       		.uleb128 .LLSDATT1780-.LLSDATTD1780
+ 426              	.LLSDATTD1780:
+ 427 001f 01       		.byte	0x1
+ 428 0020 27       		.uleb128 .LLSDACSE1780-.LLSDACSB1780
+ 429              	.LLSDACSB1780:
+ 430 0021 72       		.uleb128 .LEHB0-.LFB1780
+ 431 0022 05       		.uleb128 .LEHE0-.LEHB0
+ 432 0023 00       		.uleb128 0
+ 433 0024 00       		.uleb128 0
+ 434 0025 9501     		.uleb128 .LEHB1-.LFB1780
+ 435 0027 05       		.uleb128 .LEHE1-.LEHB1
+ 436 0028 C907     		.uleb128 .L32-.LFB1780
+ 437 002a 01       		.uleb128 0x1
+ 438 002b DA04     		.uleb128 .LEHB2-.LFB1780
+ 439 002d DA02     		.uleb128 .LEHE2-.LEHB2
+ 440 002f B407     		.uleb128 .L30-.LFB1780
+ 441 0031 00       		.uleb128 0
+ 442 0032 C407     		.uleb128 .LEHB3-.LFB1780
+ 443 0034 05       		.uleb128 .LEHE3-.LEHB3
+ 444 0035 00       		.uleb128 0
+ 445 0036 00       		.uleb128 0
+ 446 0037 D107     		.uleb128 .LEHB4-.LFB1780
+ 447 0039 05       		.uleb128 .LEHE4-.LEHB4
+ 448 003a D607     		.uleb128 .L33-.LFB1780
+ 449 003c 03       		.uleb128 0x3
+ 450 003d 8F08     		.uleb128 .LEHB5-.LFB1780
+ 451 003f 05       		.uleb128 .LEHE5-.LEHB5
+ 452 0040 9408     		.uleb128 .L31-.LFB1780
+ 453 0042 00       		.uleb128 0
+ 454 0043 9F08     		.uleb128 .LEHB6-.LFB1780
+ 455 0045 06       		.uleb128 .LEHE6-.LEHB6
+ 456 0046 00       		.uleb128 0
+ 457 0047 00       		.uleb128 0
+ 458              	.LLSDACSE1780:
+ 459 0048 01       		.byte	0x1
+ 460 0049 00       		.byte	0
+ 461 004a 00       		.byte	0
+ 462 004b 7D       		.byte	0x7d
+ 463              		.align 4
+ 464 004c 00000000 		.long	0
+ 465              	
+ 466              	.LLSDATT1780:
+ 467              		.text
+ 468              		.seh_endproc
+ 469              		.section .rdata,"dr"
+ 470              	.LC1:
+ 471 0030 76656374 		.ascii "vector::_M_realloc_insert\0"
+ 471      6F723A3A 
+ 471      5F4D5F72 
+ 471      65616C6C 
+ 471      6F635F69 
+ 472              		.section	.text$_ZNSt6vectorISt4pairIciESaIS1_EE17_M_realloc_insertIJS1_EEEvN9__gnu_cxx17__normal_i
+ 473              		.linkonce discard
+ 474              		.align 2
+ 475              		.p2align 4
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc0d9lLf.s 			page 12
+
+
+ 476              		.globl	_ZNSt6vectorISt4pairIciESaIS1_EE17_M_realloc_insertIJS1_EEEvN9__gnu_cxx17__normal_iteratorI
+ 478              		.seh_proc	_ZNSt6vectorISt4pairIciESaIS1_EE17_M_realloc_insertIJS1_EEEvN9__gnu_cxx17__normal_iterat
+ 479              	_ZNSt6vectorISt4pairIciESaIS1_EE17_M_realloc_insertIJS1_EEEvN9__gnu_cxx17__normal_iteratorIPS1_S3_E
+ 480              	.LFB2259:
+ 481 0000 4157     		pushq	%r15
+ 482              		.seh_pushreg	%r15
+ 483 0002 4156     		pushq	%r14
+ 484              		.seh_pushreg	%r14
+ 485 0004 4155     		pushq	%r13
+ 486              		.seh_pushreg	%r13
+ 487 0006 4154     		pushq	%r12
+ 488              		.seh_pushreg	%r12
+ 489 0008 55       		pushq	%rbp
+ 490              		.seh_pushreg	%rbp
+ 491 0009 57       		pushq	%rdi
+ 492              		.seh_pushreg	%rdi
+ 493 000a 56       		pushq	%rsi
+ 494              		.seh_pushreg	%rsi
+ 495 000b 53       		pushq	%rbx
+ 496              		.seh_pushreg	%rbx
+ 497 000c 4883EC38 		subq	$56, %rsp
+ 498              		.seh_stackalloc	56
+ 499              		.seh_endprologue
+ 500 0010 48BBFFFF 		movabsq	$1152921504606846975, %rbx
+ 500      FFFFFFFF 
+ 500      FF0F
+ 501 001a 488B7908 		movq	8(%rcx), %rdi
+ 502 001e 4C8B29   		movq	(%rcx), %r13
+ 503 0021 4889F8   		movq	%rdi, %rax
+ 504 0024 4C29E8   		subq	%r13, %rax
+ 505 0027 48C1F803 		sarq	$3, %rax
+ 506 002b 4889CE   		movq	%rcx, %rsi
+ 507 002e 4989D4   		movq	%rdx, %r12
+ 508 0031 4C89C5   		movq	%r8, %rbp
+ 509 0034 4889C1   		movq	%rax, %rcx
+ 510 0037 4839D8   		cmpq	%rbx, %rax
+ 511 003a 0F84FC00 		je	.L60
+ 511      0000
+ 512 0040 BA010000 		movl	$1, %edx
+ 512      00
+ 513 0045 4885C0   		testq	%rax, %rax
+ 514 0048 4889D0   		movq	%rdx, %rax
+ 515 004b 4C89E2   		movq	%r12, %rdx
+ 516 004e 480F45C1 		cmovne	%rcx, %rax
+ 517 0052 4801C8   		addq	%rcx, %rax
+ 518 0055 0F92C1   		setc	%cl
+ 519 0058 4C29EA   		subq	%r13, %rdx
+ 520 005b 0FB6C9   		movzbl	%cl, %ecx
+ 521 005e 4885C9   		testq	%rcx, %rcx
+ 522 0061 0F859900 		jne	.L54
+ 522      0000
+ 523 0067 4885C0   		testq	%rax, %rax
+ 524 006a 0F85BB00 		jne	.L48
+ 524      0000
+ 525 0070 41BF0800 		movl	$8, %r15d
+ 525      0000
+ 526 0076 31DB     		xorl	%ebx, %ebx
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc0d9lLf.s 			page 13
+
+
+ 527 0078 4531F6   		xorl	%r14d, %r14d
+ 528              	.L53:
+ 529 007b 488B4500 		movq	0(%rbp), %rax
+ 530 007f 49890416 		movq	%rax, (%r14,%rdx)
+ 531 0083 4D39EC   		cmpq	%r13, %r12
+ 532 0086 7429     		je	.L49
+ 533 0088 4D89E0   		movq	%r12, %r8
+ 534 008b 4C89F2   		movq	%r14, %rdx
+ 535 008e 4C89E8   		movq	%r13, %rax
+ 536 0091 4D29E8   		subq	%r13, %r8
+ 537              		.p2align 4,,10
+ 538 0094 0F1F4000 		.p2align 3
+ 539              	.L50:
+ 540 0098 488B08   		movq	(%rax), %rcx
+ 541 009b 4883C008 		addq	$8, %rax
+ 542 009f 4883C208 		addq	$8, %rdx
+ 543 00a3 48894AF8 		movq	%rcx, -8(%rdx)
+ 544 00a7 4C39E0   		cmpq	%r12, %rax
+ 545 00aa 75EC     		jne	.L50
+ 546 00ac 4F8D7C06 		leaq	8(%r14,%r8), %r15
+ 546      08
+ 547              	.L49:
+ 548 00b1 4939FC   		cmpq	%rdi, %r12
+ 549 00b4 7414     		je	.L51
+ 550 00b6 4C29E7   		subq	%r12, %rdi
+ 551 00b9 4C89F9   		movq	%r15, %rcx
+ 552 00bc 4C89E2   		movq	%r12, %rdx
+ 553 00bf 4989F8   		movq	%rdi, %r8
+ 554 00c2 4901FF   		addq	%rdi, %r15
+ 555 00c5 E8000000 		call	memcpy
+ 555      00
+ 556              	.L51:
+ 557 00ca 4D85ED   		testq	%r13, %r13
+ 558 00cd 740F     		je	.L52
+ 559 00cf 488B5610 		movq	16(%rsi), %rdx
+ 560 00d3 4C89E9   		movq	%r13, %rcx
+ 561 00d6 4C29EA   		subq	%r13, %rdx
+ 562 00d9 E8000000 		call	_ZdlPvy
+ 562      00
+ 563              	.L52:
+ 564 00de 4C8936   		movq	%r14, (%rsi)
+ 565 00e1 4C897E08 		movq	%r15, 8(%rsi)
+ 566 00e5 48895E10 		movq	%rbx, 16(%rsi)
+ 567 00e9 4883C438 		addq	$56, %rsp
+ 568 00ed 5B       		popq	%rbx
+ 569 00ee 5E       		popq	%rsi
+ 570 00ef 5F       		popq	%rdi
+ 571 00f0 5D       		popq	%rbp
+ 572 00f1 415C     		popq	%r12
+ 573 00f3 415D     		popq	%r13
+ 574 00f5 415E     		popq	%r14
+ 575 00f7 415F     		popq	%r15
+ 576 00f9 C3       		ret
+ 577 00fa 660F1F44 		.p2align 4,,10
+ 577      0000
+ 578              		.p2align 3
+ 579              	.L54:
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc0d9lLf.s 			page 14
+
+
+ 580 0100 48BBF8FF 		movabsq	$9223372036854775800, %rbx
+ 580      FFFFFFFF 
+ 580      FF7F
+ 581              	.L47:
+ 582 010a 4889D9   		movq	%rbx, %rcx
+ 583 010d 48895424 		movq	%rdx, 40(%rsp)
+ 583      28
+ 584 0112 E8000000 		call	_Znwy
+ 584      00
+ 585 0117 488B5424 		movq	40(%rsp), %rdx
+ 585      28
+ 586 011c 4989C6   		movq	%rax, %r14
+ 587 011f 4801C3   		addq	%rax, %rbx
+ 588 0122 4C8D7808 		leaq	8(%rax), %r15
+ 589 0126 E950FFFF 		jmp	.L53
+ 589      FF
+ 590              	.L48:
+ 591 012b 4839D8   		cmpq	%rbx, %rax
+ 592 012e 480F47C3 		cmova	%rbx, %rax
+ 593 0132 488D1CC5 		leaq	0(,%rax,8), %rbx
+ 593      00000000 
+ 594 013a EBCE     		jmp	.L47
+ 595              	.L60:
+ 596 013c 488D0D30 		leaq	.LC1(%rip), %rcx
+ 596      000000
+ 597 0143 E8000000 		call	_ZSt20__throw_length_errorPKc
+ 597      00
+ 598 0148 90       		nop
+ 599              		.seh_endproc
+ 600 0149 90909090 		.text
+ 600      909090
+ 601 0425 90       		.align 2
+ 602 0426 662E0F1F 		.p2align 4
+ 602      84000000 
+ 602      0000
+ 603              		.globl	_ZN13BFInterpreter12TransferUnit13PushReducedOPEccyPKc
+ 605              		.seh_proc	_ZN13BFInterpreter12TransferUnit13PushReducedOPEccyPKc
+ 606              	_ZN13BFInterpreter12TransferUnit13PushReducedOPEccyPKc:
+ 607              	.LFB1769:
+ 608 0430 4154     		pushq	%r12
+ 609              		.seh_pushreg	%r12
+ 610 0432 53       		pushq	%rbx
+ 611              		.seh_pushreg	%rbx
+ 612 0433 4883EC38 		subq	$56, %rsp
+ 613              		.seh_stackalloc	56
+ 614              		.seh_endprologue
+ 615 0437 4C8B5424 		movq	112(%rsp), %r10
+ 615      70
+ 616 043c 4989CC   		movq	%rcx, %r12
+ 617 043f 4C89C8   		movq	%r9, %rax
+ 618 0442 89D3     		movl	%edx, %ebx
+ 619 0444 4189D1   		movl	%edx, %r9d
+ 620 0447 4589C3   		movl	%r8d, %r11d
+ 621 044a 31C9     		xorl	%ecx, %ecx
+ 622 044c EB0E     		jmp	.L65
+ 623 044e 6690     		.p2align 4,,10
+ 624              		.p2align 3
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc0d9lLf.s 			page 15
+
+
+ 625              	.L62:
+ 626 0450 4438DA   		cmpb	%r11b, %dl
+ 627 0453 751B     		jne	.L64
+ 628 0455 83E901   		subl	$1, %ecx
+ 629              	.L63:
+ 630 0458 4883C001 		addq	$1, %rax
+ 631              	.L65:
+ 632 045c 410FB614 		movzbl	(%r10,%rax), %edx
+ 632      02
+ 633 0461 4438CA   		cmpb	%r9b, %dl
+ 634 0464 75EA     		jne	.L62
+ 635 0466 83C101   		addl	$1, %ecx
+ 636 0469 EBED     		jmp	.L63
+ 637 046b 0F1F4400 		.p2align 4,,10
+ 637      00
+ 638              		.p2align 3
+ 639              	.L64:
+ 640 0470 85C9     		testl	%ecx, %ecx
+ 641 0472 7F0C     		jg	.L76
+ 642 0474 753A     		jne	.L77
+ 643              	.L69:
+ 644 0476 4883C438 		addq	$56, %rsp
+ 645 047a 5B       		popq	%rbx
+ 646 047b 415C     		popq	%r12
+ 647 047d C3       		ret
+ 648 047e 6690     		.p2align 4,,10
+ 649              		.p2align 3
+ 650              	.L76:
+ 651 0480 885C2428 		movb	%bl, 40(%rsp)
+ 652 0484 498B5424 		movq	8(%r12), %rdx
+ 652      08
+ 653 0489 894C242C 		movl	%ecx, 44(%rsp)
+ 654 048d 493B5424 		cmpq	16(%r12), %rdx
+ 654      10
+ 655 0492 7433     		je	.L70
+ 656              	.L75:
+ 657 0494 488B4C24 		movq	40(%rsp), %rcx
+ 657      28
+ 658 0499 4883C208 		addq	$8, %rdx
+ 659 049d 48894AF8 		movq	%rcx, -8(%rdx)
+ 660 04a1 49895424 		movq	%rdx, 8(%r12)
+ 660      08
+ 661 04a6 4883C438 		addq	$56, %rsp
+ 662 04aa 5B       		popq	%rbx
+ 663 04ab 415C     		popq	%r12
+ 664 04ad C3       		ret
+ 665 04ae 6690     		.p2align 4,,10
+ 666              		.p2align 3
+ 667              	.L77:
+ 668 04b0 F7D9     		negl	%ecx
+ 669 04b2 44884424 		movb	%r8b, 40(%rsp)
+ 669      28
+ 670 04b7 498B5424 		movq	8(%r12), %rdx
+ 670      08
+ 671 04bc 894C242C 		movl	%ecx, 44(%rsp)
+ 672 04c0 493B5424 		cmpq	16(%r12), %rdx
+ 672      10
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc0d9lLf.s 			page 16
+
+
+ 673 04c5 75CD     		jne	.L75
+ 674              	.L70:
+ 675 04c7 4C8D4424 		leaq	40(%rsp), %r8
+ 675      28
+ 676 04cc 4C89E1   		movq	%r12, %rcx
+ 677 04cf 48894424 		movq	%rax, 104(%rsp)
+ 677      68
+ 678 04d4 E8000000 		call	_ZNSt6vectorISt4pairIciESaIS1_EE17_M_realloc_insertIJS1_EEEvN9__gnu_cxx17__normal_iteratorIPS
+ 678      00
+ 679 04d9 488B4424 		movq	104(%rsp), %rax
+ 679      68
+ 680 04de EB96     		jmp	.L69
+ 681              		.seh_endproc
+ 682              		.align 2
+ 683              		.p2align 4
+ 684              		.globl	_ZN13BFInterpreter12TransferUnit15TranslateSourceEPKc
+ 686              		.seh_proc	_ZN13BFInterpreter12TransferUnit15TranslateSourceEPKc
+ 687              	_ZN13BFInterpreter12TransferUnit15TranslateSourceEPKc:
+ 688              	.LFB1758:
+ 689 04e0 4155     		pushq	%r13
+ 690              		.seh_pushreg	%r13
+ 691 04e2 4154     		pushq	%r12
+ 692              		.seh_pushreg	%r12
+ 693 04e4 55       		pushq	%rbp
+ 694              		.seh_pushreg	%rbp
+ 695 04e5 57       		pushq	%rdi
+ 696              		.seh_pushreg	%rdi
+ 697 04e6 56       		pushq	%rsi
+ 698              		.seh_pushreg	%rsi
+ 699 04e7 53       		pushq	%rbx
+ 700              		.seh_pushreg	%rbx
+ 701 04e8 4883EC58 		subq	$88, %rsp
+ 702              		.seh_stackalloc	88
+ 703              		.seh_endprologue
+ 704 04ec 31FF     		xorl	%edi, %edi
+ 705 04ee 4531C9   		xorl	%r9d, %r9d
+ 706 04f1 488D354C 		leaq	.L82(%rip), %rsi
+ 706      000000
+ 707 04f8 49BD2E00 		movabsq	$-4294967250, %r13
+ 707      0000FFFF 
+ 707      FFFF
+ 708 0502 48BD2C00 		movabsq	$-4294967252, %rbp
+ 708      0000FFFF 
+ 708      FFFF
+ 709 050c 4989CC   		movq	%rcx, %r12
+ 710 050f 4889D3   		movq	%rdx, %rbx
+ 711              		.p2align 4,,10
+ 712 0512 660F1F44 		.p2align 3
+ 712      0000
+ 713              	.L79:
+ 714 0518 420FB614 		movzbl	(%rbx,%r9), %edx
+ 714      0B
+ 715 051d 8D42D5   		leal	-43(%rdx), %eax
+ 716 0520 3C32     		cmpb	$50, %al
+ 717 0522 772C     		ja	.L80
+ 718 0524 0FB6C0   		movzbl	%al, %eax
+ 719 0527 48630486 		movslq	(%rsi,%rax,4), %rax
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc0d9lLf.s 			page 17
+
+
+ 720 052b 4801F0   		addq	%rsi, %rax
+ 721 052e FFE0     		jmp	*%rax
+ 722              		.section .rdata,"dr"
+ 723 004a 0000     		.align 4
+ 724              	.L82:
+ 725 004c 34050000 		.long	.L86-.L82
+ 726 0050 3C060000 		.long	.L87-.L82
+ 727 0054 3C050000 		.long	.L86-.L82
+ 728 0058 85050000 		.long	.L85-.L82
+ 729 005c 64050000 		.long	.L80-.L82
+ 730 0060 68050000 		.long	.L80-.L82
+ 731 0064 6C050000 		.long	.L80-.L82
+ 732 0068 70050000 		.long	.L80-.L82
+ 733 006c 74050000 		.long	.L80-.L82
+ 734 0070 78050000 		.long	.L80-.L82
+ 735 0074 7C050000 		.long	.L80-.L82
+ 736 0078 80050000 		.long	.L80-.L82
+ 737 007c 84050000 		.long	.L80-.L82
+ 738 0080 88050000 		.long	.L80-.L82
+ 739 0084 8C050000 		.long	.L80-.L82
+ 740 0088 90050000 		.long	.L80-.L82
+ 741 008c 94050000 		.long	.L80-.L82
+ 742 0090 E7050000 		.long	.L84-.L82
+ 743 0094 9C050000 		.long	.L80-.L82
+ 744 0098 EF050000 		.long	.L84-.L82
+ 745 009c A4050000 		.long	.L80-.L82
+ 746 00a0 A8050000 		.long	.L80-.L82
+ 747 00a4 AC050000 		.long	.L80-.L82
+ 748 00a8 B0050000 		.long	.L80-.L82
+ 749 00ac B4050000 		.long	.L80-.L82
+ 750 00b0 B8050000 		.long	.L80-.L82
+ 751 00b4 BC050000 		.long	.L80-.L82
+ 752 00b8 C0050000 		.long	.L80-.L82
+ 753 00bc C4050000 		.long	.L80-.L82
+ 754 00c0 C8050000 		.long	.L80-.L82
+ 755 00c4 CC050000 		.long	.L80-.L82
+ 756 00c8 D0050000 		.long	.L80-.L82
+ 757 00cc D4050000 		.long	.L80-.L82
+ 758 00d0 D8050000 		.long	.L80-.L82
+ 759 00d4 DC050000 		.long	.L80-.L82
+ 760 00d8 E0050000 		.long	.L80-.L82
+ 761 00dc E4050000 		.long	.L80-.L82
+ 762 00e0 E8050000 		.long	.L80-.L82
+ 763 00e4 EC050000 		.long	.L80-.L82
+ 764 00e8 F0050000 		.long	.L80-.L82
+ 765 00ec F4050000 		.long	.L80-.L82
+ 766 00f0 F8050000 		.long	.L80-.L82
+ 767 00f4 FC050000 		.long	.L80-.L82
+ 768 00f8 00060000 		.long	.L80-.L82
+ 769 00fc 04060000 		.long	.L80-.L82
+ 770 0100 08060000 		.long	.L80-.L82
+ 771 0104 0C060000 		.long	.L80-.L82
+ 772 0108 10060000 		.long	.L80-.L82
+ 773 010c C4060000 		.long	.L83-.L82
+ 774 0110 18060000 		.long	.L80-.L82
+ 775 0114 8B060000 		.long	.L81-.L82
+ 776              		.text
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc0d9lLf.s 			page 18
+
+
+ 777              		.p2align 4,,10
+ 778              		.p2align 3
+ 779              	.L86:
+ 780 0530 48895C24 		movq	%rbx, 32(%rsp)
+ 780      20
+ 781 0535 41B82D00 		movl	$45, %r8d
+ 781      0000
+ 782 053b BA2B0000 		movl	$43, %edx
+ 782      00
+ 783 0540 4C89E1   		movq	%r12, %rcx
+ 784 0543 E8E8FEFF 		call	_ZN13BFInterpreter12TransferUnit13PushReducedOPEccyPKc
+ 784      FF
+ 785 0548 4989C1   		movq	%rax, %r9
+ 786 054b EBE3     		jmp	.L86
+ 787 054d 0F1F00   		.p2align 4,,10
+ 788              		.p2align 3
+ 789              	.L80:
+ 790 0550 84D2     		testb	%dl, %dl
+ 791 0552 7542     		jne	.L98
+ 792 0554 B8020000 		movl	$2, %eax
+ 792      00
+ 793 0559 4885FF   		testq	%rdi, %rdi
+ 794 055c 750A     		jne	.L78
+ 795 055e 4C89E1   		movq	%r12, %rcx
+ 796 0561 E89AFAFF 		call	_ZN13BFInterpreter12TransferUnit19BindBracketsByIndexEv
+ 796      FF
+ 797 0566 31C0     		xorl	%eax, %eax
+ 798              	.L78:
+ 799 0568 4883C458 		addq	$88, %rsp
+ 800 056c 5B       		popq	%rbx
+ 801 056d 5E       		popq	%rsi
+ 802 056e 5F       		popq	%rdi
+ 803 056f 5D       		popq	%rbp
+ 804 0570 415C     		popq	%r12
+ 805 0572 415D     		popq	%r13
+ 806 0574 C3       		ret
+ 807              	.L85:
+ 808 0575 4C896C24 		movq	%r13, 72(%rsp)
+ 808      48
+ 809 057a 498B5424 		movq	8(%r12), %rdx
+ 809      08
+ 810 057f 493B5424 		cmpq	16(%r12), %rdx
+ 810      10
+ 811 0584 0F84D600 		je	.L96
+ 811      0000
+ 812 058a 4C892A   		movq	%r13, (%rdx)
+ 813 058d 4883C208 		addq	$8, %rdx
+ 814 0591 49895424 		movq	%rdx, 8(%r12)
+ 814      08
+ 815              	.L98:
+ 816 0596 4983C101 		addq	$1, %r9
+ 817 059a E979FFFF 		jmp	.L79
+ 817      FF
+ 818              	.L84:
+ 819 059f 48895C24 		movq	%rbx, 32(%rsp)
+ 819      20
+ 820 05a4 41B83C00 		movl	$60, %r8d
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc0d9lLf.s 			page 19
+
+
+ 820      0000
+ 821 05aa BA3E0000 		movl	$62, %edx
+ 821      00
+ 822 05af 4C89E1   		movq	%r12, %rcx
+ 823 05b2 E879FEFF 		call	_ZN13BFInterpreter12TransferUnit13PushReducedOPEccyPKc
+ 823      FF
+ 824 05b7 4989C1   		movq	%rax, %r9
+ 825 05ba E959FFFF 		jmp	.L79
+ 825      FF
+ 826              	.L81:
+ 827 05bf 4885FF   		testq	%rdi, %rdi
+ 828 05c2 0F84ED00 		je	.L99
+ 828      0000
+ 829 05c8 48B85D00 		movabsq	$-4294967203, %rax
+ 829      0000FFFF 
+ 829      FFFF
+ 830 05d2 498B5424 		movq	8(%r12), %rdx
+ 830      08
+ 831 05d7 48894424 		movq	%rax, 72(%rsp)
+ 831      48
+ 832 05dc 493B5424 		cmpq	16(%r12), %rdx
+ 832      10
+ 833 05e1 0F84B200 		je	.L92
+ 833      0000
+ 834 05e7 488902   		movq	%rax, (%rdx)
+ 835 05ea 4883C208 		addq	$8, %rdx
+ 836 05ee 49895424 		movq	%rdx, 8(%r12)
+ 836      08
+ 837              	.L93:
+ 838 05f3 4883EF01 		subq	$1, %rdi
+ 839 05f7 4983C101 		addq	$1, %r9
+ 840 05fb E918FFFF 		jmp	.L79
+ 840      FF
+ 841              	.L83:
+ 842 0600 48B85B00 		movabsq	$-4294967205, %rax
+ 842      0000FFFF 
+ 842      FFFF
+ 843 060a 498B5424 		movq	8(%r12), %rdx
+ 843      08
+ 844 060f 48894424 		movq	%rax, 72(%rsp)
+ 844      48
+ 845 0614 493B5424 		cmpq	16(%r12), %rdx
+ 845      10
+ 846 0619 7465     		je	.L89
+ 847 061b 488902   		movq	%rax, (%rdx)
+ 848 061e 4883C208 		addq	$8, %rdx
+ 849 0622 49895424 		movq	%rdx, 8(%r12)
+ 849      08
+ 850              	.L90:
+ 851 0627 4883C701 		addq	$1, %rdi
+ 852 062b 4983C101 		addq	$1, %r9
+ 853 062f E9E4FEFF 		jmp	.L79
+ 853      FF
+ 854              	.L87:
+ 855 0634 48896C24 		movq	%rbp, 72(%rsp)
+ 855      48
+ 856 0639 498B5424 		movq	8(%r12), %rdx
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc0d9lLf.s 			page 20
+
+
+ 856      08
+ 857 063e 493B5424 		cmpq	16(%r12), %rdx
+ 857      10
+ 858 0643 741B     		je	.L96
+ 859 0645 48892A   		movq	%rbp, (%rdx)
+ 860 0648 4883C208 		addq	$8, %rdx
+ 861 064c 4983C101 		addq	$1, %r9
+ 862 0650 49895424 		movq	%rdx, 8(%r12)
+ 862      08
+ 863 0655 E9BEFEFF 		jmp	.L79
+ 863      FF
+ 864 065a 660F1F44 		.p2align 4,,10
+ 864      0000
+ 865              		.p2align 3
+ 866              	.L96:
+ 867 0660 4C8D4424 		leaq	72(%rsp), %r8
+ 867      48
+ 868 0665 4C89E1   		movq	%r12, %rcx
+ 869 0668 4C894C24 		movq	%r9, 56(%rsp)
+ 869      38
+ 870 066d E8000000 		call	_ZNSt6vectorISt4pairIciESaIS1_EE17_M_realloc_insertIJS1_EEEvN9__gnu_cxx17__normal_iteratorIPS
+ 870      00
+ 871 0672 4C8B4C24 		movq	56(%rsp), %r9
+ 871      38
+ 872 0677 4983C101 		addq	$1, %r9
+ 873 067b E998FEFF 		jmp	.L79
+ 873      FF
+ 874              	.L89:
+ 875 0680 4C8D4424 		leaq	72(%rsp), %r8
+ 875      48
+ 876 0685 4C89E1   		movq	%r12, %rcx
+ 877 0688 4C894C24 		movq	%r9, 56(%rsp)
+ 877      38
+ 878 068d E8000000 		call	_ZNSt6vectorISt4pairIciESaIS1_EE17_M_realloc_insertIJS1_EEEvN9__gnu_cxx17__normal_iteratorIPS
+ 878      00
+ 879 0692 4C8B4C24 		movq	56(%rsp), %r9
+ 879      38
+ 880 0697 EB8E     		jmp	.L90
+ 881              	.L92:
+ 882 0699 4C8D4424 		leaq	72(%rsp), %r8
+ 882      48
+ 883 069e 4C89E1   		movq	%r12, %rcx
+ 884 06a1 4C894C24 		movq	%r9, 56(%rsp)
+ 884      38
+ 885 06a6 E8000000 		call	_ZNSt6vectorISt4pairIciESaIS1_EE17_M_realloc_insertIJS1_EEEvN9__gnu_cxx17__normal_iteratorIPS
+ 885      00
+ 886 06ab 4C8B4C24 		movq	56(%rsp), %r9
+ 886      38
+ 887 06b0 E93EFFFF 		jmp	.L93
+ 887      FF
+ 888              	.L99:
+ 889 06b5 B8010000 		movl	$1, %eax
+ 889      00
+ 890 06ba E9A9FEFF 		jmp	.L78
+ 890      FF
+ 891              		.seh_endproc
+ 892              		.section .rdata,"dr"
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc0d9lLf.s 			page 21
+
+
+ 893              	.LC2:
+ 894 0118 62756620 		.ascii "buf arg pointer is null\0"
+ 894      61726720 
+ 894      706F696E 
+ 894      74657220 
+ 894      6973206E 
+ 895              		.text
+ 896 06bf 90       		.align 2
+ 897              		.p2align 4
+ 898              		.globl	_ZN13BFInterpreter12TransferUnitC2EPKc
+ 900              		.seh_proc	_ZN13BFInterpreter12TransferUnitC2EPKc
+ 901              	_ZN13BFInterpreter12TransferUnitC2EPKc:
+ 902              	.LFB1753:
+ 903 06c0 4156     		pushq	%r14
+ 904              		.seh_pushreg	%r14
+ 905 06c2 4155     		pushq	%r13
+ 906              		.seh_pushreg	%r13
+ 907 06c4 4154     		pushq	%r12
+ 908              		.seh_pushreg	%r12
+ 909 06c6 4883EC20 		subq	$32, %rsp
+ 910              		.seh_stackalloc	32
+ 911              		.seh_endprologue
+ 912 06ca 48C70100 		movq	$0, (%rcx)
+ 912      000000
+ 913 06d1 4989CC   		movq	%rcx, %r12
+ 914 06d4 48C74108 		movq	$0, 8(%rcx)
+ 914      00000000 
+ 915 06dc 48C74110 		movq	$0, 16(%rcx)
+ 915      00000000 
+ 916 06e4 4885D2   		testq	%rdx, %rdx
+ 917 06e7 7417     		je	.L112
+ 918              	.LEHB7:
+ 919 06e9 E8F2FDFF 		call	_ZN13BFInterpreter12TransferUnit15TranslateSourceEPKc
+ 919      FF
+ 920              	.LEHE7:
+ 921 06ee 4189C5   		movl	%eax, %r13d
+ 922 06f1 85C0     		testl	%eax, %eax
+ 923 06f3 753D     		jne	.L113
+ 924 06f5 4883C420 		addq	$32, %rsp
+ 925 06f9 415C     		popq	%r12
+ 926 06fb 415D     		popq	%r13
+ 927 06fd 415E     		popq	%r14
+ 928 06ff C3       		ret
+ 929              	.L112:
+ 930 0700 B9100000 		movl	$16, %ecx
+ 930      00
+ 931 0705 E8000000 		call	__cxa_allocate_exception
+ 931      00
+ 932 070a 488D1518 		leaq	.LC2(%rip), %rdx
+ 932      010000
+ 933 0711 4889C1   		movq	%rax, %rcx
+ 934 0714 4989C6   		movq	%rax, %r14
+ 935              	.LEHB8:
+ 936 0717 E8000000 		call	_ZNSt16invalid_argumentC1EPKc
+ 936      00
+ 937              	.LEHE8:
+ 938 071c 4C8D0500 		leaq	_ZNSt16invalid_argumentD1Ev(%rip), %r8
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc0d9lLf.s 			page 22
+
+
+ 938      000000
+ 939 0723 488D1500 		leaq	_ZTISt16invalid_argument(%rip), %rdx
+ 939      000000
+ 940 072a 4C89F1   		movq	%r14, %rcx
+ 941              	.LEHB9:
+ 942 072d E8000000 		call	__cxa_throw
+ 942      00
+ 943              	.LEHE9:
+ 944              	.L113:
+ 945 0732 B9300000 		movl	$48, %ecx
+ 945      00
+ 946 0737 E8000000 		call	__cxa_allocate_exception
+ 946      00
+ 947 073c 4489EA   		movl	%r13d, %edx
+ 948 073f 4889C1   		movq	%rax, %rcx
+ 949 0742 4989C6   		movq	%rax, %r14
+ 950              	.LEHB10:
+ 951 0745 E8000000 		call	_ZN13BFInterpreter20InterpreterExceptionC1ENS_14InterpRetCodesE
+ 951      00
+ 952              	.LEHE10:
+ 953 074a 4C8D0500 		leaq	_ZN13BFInterpreter20InterpreterExceptionD1Ev(%rip), %r8
+ 953      000000
+ 954 0751 488D1500 		leaq	_ZTIN13BFInterpreter20InterpreterExceptionE(%rip), %rdx
+ 954      000000
+ 955 0758 4C89F1   		movq	%r14, %rcx
+ 956              	.LEHB11:
+ 957 075b E8000000 		call	__cxa_throw
+ 957      00
+ 958              	.LEHE11:
+ 959              	.L109:
+ 960 0760 4989C5   		movq	%rax, %r13
+ 961              	.L106:
+ 962 0763 4C89E1   		movq	%r12, %rcx
+ 963 0766 E8000000 		call	_ZNSt12_Vector_baseISt4pairIciESaIS1_EED2Ev
+ 963      00
+ 964 076b 4C89E9   		movq	%r13, %rcx
+ 965              	.LEHB12:
+ 966 076e E8000000 		call	_Unwind_Resume
+ 966      00
+ 967              	.LEHE12:
+ 968              	.L108:
+ 969              	.L111:
+ 970 0773 4C89F1   		movq	%r14, %rcx
+ 971 0776 4989C5   		movq	%rax, %r13
+ 972 0779 E8000000 		call	__cxa_free_exception
+ 972      00
+ 973 077e EBE3     		jmp	.L106
+ 974              	.L110:
+ 975 0780 EBF1     		jmp	.L111
+ 976              		.seh_handler	__gxx_personality_seh0, @unwind, @except
+ 977              		.seh_handlerdata
+ 978              	.LLSDA1753:
+ 979 0080 FF       		.byte	0xff
+ 980 0081 FF       		.byte	0xff
+ 981 0082 01       		.byte	0x1
+ 982 0083 20       		.uleb128 .LLSDACSE1753-.LLSDACSB1753
+ 983              	.LLSDACSB1753:
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc0d9lLf.s 			page 23
+
+
+ 984 0084 29       		.uleb128 .LEHB7-.LFB1753
+ 985 0085 05       		.uleb128 .LEHE7-.LEHB7
+ 986 0086 A001     		.uleb128 .L109-.LFB1753
+ 987 0088 00       		.uleb128 0
+ 988 0089 57       		.uleb128 .LEHB8-.LFB1753
+ 989 008a 05       		.uleb128 .LEHE8-.LEHB8
+ 990 008b B301     		.uleb128 .L108-.LFB1753
+ 991 008d 00       		.uleb128 0
+ 992 008e 6D       		.uleb128 .LEHB9-.LFB1753
+ 993 008f 05       		.uleb128 .LEHE9-.LEHB9
+ 994 0090 A001     		.uleb128 .L109-.LFB1753
+ 995 0092 00       		.uleb128 0
+ 996 0093 8501     		.uleb128 .LEHB10-.LFB1753
+ 997 0095 05       		.uleb128 .LEHE10-.LEHB10
+ 998 0096 C001     		.uleb128 .L110-.LFB1753
+ 999 0098 00       		.uleb128 0
+ 1000 0099 9B01     		.uleb128 .LEHB11-.LFB1753
+ 1001 009b 05       		.uleb128 .LEHE11-.LEHB11
+ 1002 009c A001     		.uleb128 .L109-.LFB1753
+ 1003 009e 00       		.uleb128 0
+ 1004 009f AE01     		.uleb128 .LEHB12-.LFB1753
+ 1005 00a1 05       		.uleb128 .LEHE12-.LEHB12
+ 1006 00a2 00       		.uleb128 0
+ 1007 00a3 00       		.uleb128 0
+ 1008              	.LLSDACSE1753:
+ 1009              		.text
+ 1010              		.seh_endproc
+ 1011              		.globl	_ZN13BFInterpreter12TransferUnitC1EPKc
+ 1013              		.set	_ZN13BFInterpreter12TransferUnitC1EPKc,_ZN13BFInterpreter12TransferUnitC2EPKc
+ 1014              		.section .rdata,"dr"
+ 1015              	.LC3:
+ 1016 0130 73747269 		.ascii "string of source if empty\0"
+ 1016      6E67206F 
+ 1016      6620736F 
+ 1016      75726365 
+ 1016      20696620 
+ 1017 014a 00000000 		.text
+ 1017      0000
+ 1018              		.align 2
+ 1019 0782 66662E0F 		.p2align 4
+ 1019      1F840000 
+ 1019      0000000F 
+ 1019      1F00
+ 1020              		.globl	_ZN13BFInterpreter12TransferUnitC2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+ 1022              		.seh_proc	_ZN13BFInterpreter12TransferUnitC2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+ 1023              	_ZN13BFInterpreter12TransferUnitC2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE:
+ 1024              	.LFB1756:
+ 1025 0790 4156     		pushq	%r14
+ 1026              		.seh_pushreg	%r14
+ 1027 0792 4155     		pushq	%r13
+ 1028              		.seh_pushreg	%r13
+ 1029 0794 4154     		pushq	%r12
+ 1030              		.seh_pushreg	%r12
+ 1031 0796 4883EC20 		subq	$32, %rsp
+ 1032              		.seh_stackalloc	32
+ 1033              		.seh_endprologue
+ 1034 079a 48837A08 		cmpq	$0, 8(%rdx)
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc0d9lLf.s 			page 24
+
+
+ 1034      00
+ 1035 079f 48C70100 		movq	$0, (%rcx)
+ 1035      000000
+ 1036 07a6 4989CC   		movq	%rcx, %r12
+ 1037 07a9 48C74108 		movq	$0, 8(%rcx)
+ 1037      00000000 
+ 1038 07b1 48C74110 		movq	$0, 16(%rcx)
+ 1038      00000000 
+ 1039 07b9 741A     		je	.L124
+ 1040 07bb 488B12   		movq	(%rdx), %rdx
+ 1041              	.LEHB13:
+ 1042 07be E81DFDFF 		call	_ZN13BFInterpreter12TransferUnit15TranslateSourceEPKc
+ 1042      FF
+ 1043              	.LEHE13:
+ 1044 07c3 4189C5   		movl	%eax, %r13d
+ 1045 07c6 85C0     		testl	%eax, %eax
+ 1046 07c8 753D     		jne	.L125
+ 1047 07ca 4883C420 		addq	$32, %rsp
+ 1048 07ce 415C     		popq	%r12
+ 1049 07d0 415D     		popq	%r13
+ 1050 07d2 415E     		popq	%r14
+ 1051 07d4 C3       		ret
+ 1052              	.L124:
+ 1053 07d5 B9100000 		movl	$16, %ecx
+ 1053      00
+ 1054 07da E8000000 		call	__cxa_allocate_exception
+ 1054      00
+ 1055 07df 488D1530 		leaq	.LC3(%rip), %rdx
+ 1055      010000
+ 1056 07e6 4889C1   		movq	%rax, %rcx
+ 1057 07e9 4989C6   		movq	%rax, %r14
+ 1058              	.LEHB14:
+ 1059 07ec E8000000 		call	_ZNSt16invalid_argumentC1EPKc
+ 1059      00
+ 1060              	.LEHE14:
+ 1061 07f1 4C8D0500 		leaq	_ZNSt16invalid_argumentD1Ev(%rip), %r8
+ 1061      000000
+ 1062 07f8 488D1500 		leaq	_ZTISt16invalid_argument(%rip), %rdx
+ 1062      000000
+ 1063 07ff 4C89F1   		movq	%r14, %rcx
+ 1064              	.LEHB15:
+ 1065 0802 E8000000 		call	__cxa_throw
+ 1065      00
+ 1066              	.LEHE15:
+ 1067              	.L125:
+ 1068 0807 B9300000 		movl	$48, %ecx
+ 1068      00
+ 1069 080c E8000000 		call	__cxa_allocate_exception
+ 1069      00
+ 1070 0811 4489EA   		movl	%r13d, %edx
+ 1071 0814 4889C1   		movq	%rax, %rcx
+ 1072 0817 4989C6   		movq	%rax, %r14
+ 1073              	.LEHB16:
+ 1074 081a E8000000 		call	_ZN13BFInterpreter20InterpreterExceptionC1ENS_14InterpRetCodesE
+ 1074      00
+ 1075              	.LEHE16:
+ 1076 081f 4C8D0500 		leaq	_ZN13BFInterpreter20InterpreterExceptionD1Ev(%rip), %r8
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc0d9lLf.s 			page 25
+
+
+ 1076      000000
+ 1077 0826 488D1500 		leaq	_ZTIN13BFInterpreter20InterpreterExceptionE(%rip), %rdx
+ 1077      000000
+ 1078 082d 4C89F1   		movq	%r14, %rcx
+ 1079              	.LEHB17:
+ 1080 0830 E8000000 		call	__cxa_throw
+ 1080      00
+ 1081              	.LEHE17:
+ 1082              	.L121:
+ 1083 0835 4989C5   		movq	%rax, %r13
+ 1084              	.L118:
+ 1085 0838 4C89E1   		movq	%r12, %rcx
+ 1086 083b E8000000 		call	_ZNSt12_Vector_baseISt4pairIciESaIS1_EED2Ev
+ 1086      00
+ 1087 0840 4C89E9   		movq	%r13, %rcx
+ 1088              	.LEHB18:
+ 1089 0843 E8000000 		call	_Unwind_Resume
+ 1089      00
+ 1090              	.LEHE18:
+ 1091              	.L120:
+ 1092              	.L123:
+ 1093 0848 4C89F1   		movq	%r14, %rcx
+ 1094 084b 4989C5   		movq	%rax, %r13
+ 1095 084e E8000000 		call	__cxa_free_exception
+ 1095      00
+ 1096 0853 EBE3     		jmp	.L118
+ 1097              	.L122:
+ 1098 0855 EBF1     		jmp	.L123
+ 1099              		.seh_handler	__gxx_personality_seh0, @unwind, @except
+ 1100              		.seh_handlerdata
+ 1101              	.LLSDA1756:
+ 1102 00b4 FF       		.byte	0xff
+ 1103 00b5 FF       		.byte	0xff
+ 1104 00b6 01       		.byte	0x1
+ 1105 00b7 20       		.uleb128 .LLSDACSE1756-.LLSDACSB1756
+ 1106              	.LLSDACSB1756:
+ 1107 00b8 2E       		.uleb128 .LEHB13-.LFB1756
+ 1108 00b9 05       		.uleb128 .LEHE13-.LEHB13
+ 1109 00ba A501     		.uleb128 .L121-.LFB1756
+ 1110 00bc 00       		.uleb128 0
+ 1111 00bd 5C       		.uleb128 .LEHB14-.LFB1756
+ 1112 00be 05       		.uleb128 .LEHE14-.LEHB14
+ 1113 00bf B801     		.uleb128 .L120-.LFB1756
+ 1114 00c1 00       		.uleb128 0
+ 1115 00c2 72       		.uleb128 .LEHB15-.LFB1756
+ 1116 00c3 05       		.uleb128 .LEHE15-.LEHB15
+ 1117 00c4 A501     		.uleb128 .L121-.LFB1756
+ 1118 00c6 00       		.uleb128 0
+ 1119 00c7 8A01     		.uleb128 .LEHB16-.LFB1756
+ 1120 00c9 05       		.uleb128 .LEHE16-.LEHB16
+ 1121 00ca C501     		.uleb128 .L122-.LFB1756
+ 1122 00cc 00       		.uleb128 0
+ 1123 00cd A001     		.uleb128 .LEHB17-.LFB1756
+ 1124 00cf 05       		.uleb128 .LEHE17-.LEHB17
+ 1125 00d0 A501     		.uleb128 .L121-.LFB1756
+ 1126 00d2 00       		.uleb128 0
+ 1127 00d3 B301     		.uleb128 .LEHB18-.LFB1756
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc0d9lLf.s 			page 26
+
+
+ 1128 00d5 05       		.uleb128 .LEHE18-.LEHB18
+ 1129 00d6 00       		.uleb128 0
+ 1130 00d7 00       		.uleb128 0
+ 1131              	.LLSDACSE1756:
+ 1132              		.text
+ 1133              		.seh_endproc
+ 1134              		.globl	_ZN13BFInterpreter12TransferUnitC1ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+ 1136              		.set	_ZN13BFInterpreter12TransferUnitC1ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE,_ZN13
+ 1137              		.globl	_ZTSSt9exception
+ 1138 0857 90909090 		.section	.rdata$_ZTSSt9exception,"dr"
+ 1138      90909090 
+ 1138      90
+ 1139              		.linkonce same_size
+ 1140              		.align 8
+ 1141              	_ZTSSt9exception:
+ 1142 0000 53743965 		.ascii "St9exception\0"
+ 1142      78636570 
+ 1142      74696F6E 
+ 1142      00
+ 1143              		.globl	_ZTISt9exception
+ 1144 000d 000000   		.section	.rdata$_ZTISt9exception,"dr"
+ 1145              		.linkonce same_size
+ 1146              		.align 8
+ 1147              	_ZTISt9exception:
+ 1148 0000 10000000 		.quad	_ZTVN10__cxxabiv117__class_type_infoE+16
+ 1148      00000000 
+ 1149 0008 00000000 		.quad	_ZTSSt9exception
+ 1149      00000000 
+ 1150              		.globl	_ZTSSt11logic_error
+ 1151              		.section	.rdata$_ZTSSt11logic_error,"dr"
+ 1152              		.linkonce same_size
+ 1153              		.align 16
+ 1154              	_ZTSSt11logic_error:
+ 1155 0000 53743131 		.ascii "St11logic_error\0"
+ 1155      6C6F6769 
+ 1155      635F6572 
+ 1155      726F7200 
+ 1156              		.globl	_ZTISt11logic_error
+ 1157              		.section	.rdata$_ZTISt11logic_error,"dr"
+ 1158              		.linkonce same_size
+ 1159              		.align 8
+ 1160              	_ZTISt11logic_error:
+ 1161 0000 10000000 		.quad	_ZTVN10__cxxabiv120__si_class_type_infoE+16
+ 1161      00000000 
+ 1162 0008 00000000 		.quad	_ZTSSt11logic_error
+ 1162      00000000 
+ 1163 0010 00000000 		.quad	_ZTISt9exception
+ 1163      00000000 
+ 1164              		.globl	_ZTSSt16invalid_argument
+ 1165 0018 00000000 		.section	.rdata$_ZTSSt16invalid_argument,"dr"
+ 1165      00000000 
+ 1166              		.linkonce same_size
+ 1167              		.align 16
+ 1168              	_ZTSSt16invalid_argument:
+ 1169 0000 53743136 		.ascii "St16invalid_argument\0"
+ 1169      696E7661 
+ 1169      6C69645F 
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc0d9lLf.s 			page 27
+
+
+ 1169      61726775 
+ 1169      6D656E74 
+ 1170              		.globl	_ZTISt16invalid_argument
+ 1171 0015 00000000 		.section	.rdata$_ZTISt16invalid_argument,"dr"
+ 1171      00000000 
+ 1171      000000
+ 1172              		.linkonce same_size
+ 1173              		.align 8
+ 1174              	_ZTISt16invalid_argument:
+ 1175 0000 10000000 		.quad	_ZTVN10__cxxabiv120__si_class_type_infoE+16
+ 1175      00000000 
+ 1176 0008 00000000 		.quad	_ZTSSt16invalid_argument
+ 1176      00000000 
+ 1177 0010 00000000 		.quad	_ZTISt11logic_error
+ 1177      00000000 
+ 1178              		.globl	_ZTSN13BFInterpreter20InterpreterExceptionE
+ 1179 0018 00000000 		.section	.rdata$_ZTSN13BFInterpreter20InterpreterExceptionE,"dr"
+ 1179      00000000 
+ 1180              		.linkonce same_size
+ 1181              		.align 32
+ 1182              	_ZTSN13BFInterpreter20InterpreterExceptionE:
+ 1183 0000 4E313342 		.ascii "N13BFInterpreter20InterpreterExceptionE\0"
+ 1183      46496E74 
+ 1183      65727072 
+ 1183      65746572 
+ 1183      3230496E 
+ 1184              		.globl	_ZTIN13BFInterpreter20InterpreterExceptionE
+ 1185 0028 00000000 		.section	.rdata$_ZTIN13BFInterpreter20InterpreterExceptionE,"dr"
+ 1185      00000000 
+ 1185      00000000 
+ 1185      00000000 
+ 1185      00000000 
+ 1186              		.linkonce same_size
+ 1187              		.align 8
+ 1188              	_ZTIN13BFInterpreter20InterpreterExceptionE:
+ 1189 0000 10000000 		.quad	_ZTVN10__cxxabiv120__si_class_type_infoE+16
+ 1189      00000000 
+ 1190 0008 00000000 		.quad	_ZTSN13BFInterpreter20InterpreterExceptionE
+ 1190      00000000 
+ 1191 0010 00000000 		.quad	_ZTISt9exception
+ 1191      00000000 
+ 1192              		.ident	"GCC: (Rev3, Built by MSYS2 project) 10.1.0"
+ 1210 0018 00000000 		.section	.rdata$.refptr._ZNSt16invalid_argumentD1Ev, "dr"
+ 1210      00000000 
+ 1211              		.globl	.refptr._ZNSt16invalid_argumentD1Ev
+ 1212              		.linkonce	discard
+ 1213              	.refptr._ZNSt16invalid_argumentD1Ev:
+ 1214 0000 00000000 		.quad	_ZNSt16invalid_argumentD1Ev
+ 1214      00000000 
+ 1215 0008 00000000 		.section	.rdata$.refptr._ZTVN13BFInterpreter20InterpreterExceptionE, "dr"
+ 1215      00000000 
+ 1216              		.globl	.refptr._ZTVN13BFInterpreter20InterpreterExceptionE
+ 1217              		.linkonce	discard
+ 1218              	.refptr._ZTVN13BFInterpreter20InterpreterExceptionE:
+ 1219 0000 00000000 		.quad	_ZTVN13BFInterpreter20InterpreterExceptionE
+ 1219      00000000 
+ 1219      00000000 
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc0d9lLf.s 			page 28
+
+
+ 1219      00000000 
+GAS LISTING C:\Users\Ilya\AppData\Local\Temp\cc0d9lLf.s 			page 29
+
+
+DEFINED SYMBOLS
+                            *ABS*:0000000000000000 transfer_unit.cpp
+C:\Users\Ilya\AppData\Local\Temp\cc0d9lLf.s:10     .text$_ZN13BFInterpreter20InterpreterExceptionD1Ev:0000000000000000 _ZN13BFInterpreter20InterpreterExceptionD1Ev
+C:\Users\Ilya\AppData\Local\Temp\cc0d9lLf.s:1218   .rdata$.refptr._ZTVN13BFInterpreter20InterpreterExceptionE:0000000000000000 .refptr._ZTVN13BFInterpreter20InterpreterExceptionE
+C:\Users\Ilya\AppData\Local\Temp\cc0d9lLf.s:41     .text$_ZNSt12_Vector_baseISt4pairIciESaIS1_EED2Ev:0000000000000000 _ZNSt12_Vector_baseISt4pairIciESaIS1_EED2Ev
+C:\Users\Ilya\AppData\Local\Temp\cc0d9lLf.s:63     .text$_ZNSt11_Deque_baseIN9__gnu_cxx17__normal_iteratorIPSt4pairIciESt6vectorIS3_SaIS3_EEEESaIS8_EED2Ev:0000000000000000 _ZNSt11_Deque_baseIN9__gnu_cxx17__normal_iteratorIPSt4pairIciESt6vectorIS3_SaIS3_EEEESaIS8_EED2Ev
+C:\Users\Ilya\AppData\Local\Temp\cc0d9lLf.s:120    .text:0000000000000000 _ZN13BFInterpreter12TransferUnit19BindBracketsByIndexEv
+C:\Users\Ilya\AppData\Local\Temp\cc0d9lLf.s:479    .text$_ZNSt6vectorISt4pairIciESaIS1_EE17_M_realloc_insertIJS1_EEEvN9__gnu_cxx17__normal_iteratorIPS1_S3_EEDpOT_:0000000000000000 _ZNSt6vectorISt4pairIciESaIS1_EE17_M_realloc_insertIJS1_EEEvN9__gnu_cxx17__normal_iteratorIPS1_S3_EEDpOT_
+C:\Users\Ilya\AppData\Local\Temp\cc0d9lLf.s:606    .text:0000000000000430 _ZN13BFInterpreter12TransferUnit13PushReducedOPEccyPKc
+C:\Users\Ilya\AppData\Local\Temp\cc0d9lLf.s:687    .text:00000000000004e0 _ZN13BFInterpreter12TransferUnit15TranslateSourceEPKc
+C:\Users\Ilya\AppData\Local\Temp\cc0d9lLf.s:901    .text:00000000000006c0 _ZN13BFInterpreter12TransferUnitC2EPKc
+C:\Users\Ilya\AppData\Local\Temp\cc0d9lLf.s:1174   .rdata$_ZTISt16invalid_argument:0000000000000000 _ZTISt16invalid_argument
+C:\Users\Ilya\AppData\Local\Temp\cc0d9lLf.s:1188   .rdata$_ZTIN13BFInterpreter20InterpreterExceptionE:0000000000000000 _ZTIN13BFInterpreter20InterpreterExceptionE
+C:\Users\Ilya\AppData\Local\Temp\cc0d9lLf.s:901    .text:00000000000006c0 _ZN13BFInterpreter12TransferUnitC1EPKc
+C:\Users\Ilya\AppData\Local\Temp\cc0d9lLf.s:1023   .text:0000000000000790 _ZN13BFInterpreter12TransferUnitC2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+C:\Users\Ilya\AppData\Local\Temp\cc0d9lLf.s:1023   .text:0000000000000790 _ZN13BFInterpreter12TransferUnitC1ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+C:\Users\Ilya\AppData\Local\Temp\cc0d9lLf.s:1141   .rdata$_ZTSSt9exception:0000000000000000 _ZTSSt9exception
+C:\Users\Ilya\AppData\Local\Temp\cc0d9lLf.s:1147   .rdata$_ZTISt9exception:0000000000000000 _ZTISt9exception
+C:\Users\Ilya\AppData\Local\Temp\cc0d9lLf.s:1154   .rdata$_ZTSSt11logic_error:0000000000000000 _ZTSSt11logic_error
+C:\Users\Ilya\AppData\Local\Temp\cc0d9lLf.s:1160   .rdata$_ZTISt11logic_error:0000000000000000 _ZTISt11logic_error
+C:\Users\Ilya\AppData\Local\Temp\cc0d9lLf.s:1168   .rdata$_ZTSSt16invalid_argument:0000000000000000 _ZTSSt16invalid_argument
+C:\Users\Ilya\AppData\Local\Temp\cc0d9lLf.s:1182   .rdata$_ZTSN13BFInterpreter20InterpreterExceptionE:0000000000000000 _ZTSN13BFInterpreter20InterpreterExceptionE
+C:\Users\Ilya\AppData\Local\Temp\cc0d9lLf.s:1213   .rdata$.refptr._ZNSt16invalid_argumentD1Ev:0000000000000000 .refptr._ZNSt16invalid_argumentD1Ev
+
+UNDEFINED SYMBOLS
+__gxx_personality_seh0
+_ZTVN10__cxxabiv117__class_type_infoE
+_ZTVN10__cxxabiv120__si_class_type_infoE
+_ZdlPvy
+_ZNSt9exceptionD2Ev
+_Znwy
+memmove
+_ZSt17__throw_bad_allocv
+_ZSt20__throw_length_errorPKc
+_Unwind_Resume
+__cxa_begin_catch
+__cxa_rethrow
+__cxa_end_catch
+memcpy
+__cxa_allocate_exception
+_ZNSt16invalid_argumentC1EPKc
+_ZNSt16invalid_argumentD1Ev
+__cxa_throw
+_ZN13BFInterpreter20InterpreterExceptionC1ENS_14InterpRetCodesE
+__cxa_free_exception
+_ZTVN13BFInterpreter20InterpreterExceptionE
