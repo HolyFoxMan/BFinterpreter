@@ -42,6 +42,7 @@
 		<Unit filename="process_commands.cpp" />
 		<Unit filename="transfer_unit.cpp" />
 		<Unit filename="transfer_unit.hpp" />
+		<Unit filename="transfer_unit_parser.cpp" />
 		<Extensions>
 			<code_completion />
 			<debugger />

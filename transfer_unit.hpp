@@ -2,6 +2,7 @@
 #include <vector>
 #include <utility>
 #include <string>
+#include <istream>
 #include "interpreter_status.hpp"
 
 #define TU_DEBUG
@@ -33,6 +34,7 @@ namespace BFInterpreter {
 
         explicit TransferUnit(const char* strSrc);
         explicit TransferUnit(std::string strSrc);
+        explicit TransferUnit(std::istream strSrc);
 
         ~TransferUnit()                                  = default;
         TransferUnit(const TransferUnit&)                = default;

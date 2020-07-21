@@ -19,15 +19,16 @@
 	<string>
 	"interpreterStatus.hpp"
 
-1595285040 source:d:\coding\bfinterpreter\transfer_unit.cpp
+1595327766 source:d:\coding\bfinterpreter\transfer_unit.cpp
 	"transfer_unit.hpp"
 	<stack>
 	<iostream>
 
-1595091966 d:\coding\bfinterpreter\transfer_unit.hpp
+1595327646 d:\coding\bfinterpreter\transfer_unit.hpp
 	<vector>
 	<utility>
 	<string>
+	<istream>
 	"interpreter_status.hpp"
 
 1595077165 d:\coding\bfinterpreter\interpreter_status.hpp
